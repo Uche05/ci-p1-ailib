@@ -75,9 +75,9 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 - The chosen colour scheme for AI Library is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour.
 - The colours used are as follows:-
 
-- `#9ecffa` used for primary text.
-- `#9ecffa` used for primary highlights.
-- `#fafafa` used for secondary text.
+- `#03045E` used for primary text.
+- `#0077B6` used for primary highlights.
+- `#` used for secondary text.
 - `#fafafa` used for secondary highlights.
 - `#7f0ffb and #c27b6f` combined to create a linear gradient background.
 - `#000` used for box shadows and modal background.
