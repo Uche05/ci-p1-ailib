@@ -84,13 +84,14 @@ nav {
     font-size: 3rem;
 }
 
-/* Add media query for screens of tablets and larger */
+/*media query for screens of tablets and larger */
 @media screen and (min-width:768px) {
         /* Header */
         nav {
             display: block;
             position: relative;
             box-shadow: none;
+            width: fit-content;
             padding-right: 1rem;
         }
     
@@ -98,7 +99,7 @@ nav {
             display: flex;
         }
     
-        #menu>li {
+        #menu > li {
             padding-left: 1rem;
         }
     
@@ -106,9 +107,17 @@ nav {
             display: none;
         }
     
-        #headerlogo {
+        #header_logo {
             font-size: 280%;
             line-height: 75px;
             margin: 0 0.5rem;
         }
+}
+
+/*media query for hover effect on laptops and larger*/
+@media screen and (min-width:992px) {
+    /*Hover effect*/
+    #menu a:hover{
+        border-bottom: 3px solid #03045E;
+    }
 }
