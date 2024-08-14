@@ -37,13 +37,16 @@ header a{
     text-decoration: none;
 }
 
+#menu a{
+    color: #03045E;
+}
+
 #menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
     font-size: 105%;
-    
 }
 
 #menu > li{
@@ -59,7 +62,7 @@ header a{
 /*Style navigation elements*/
 nav {
     position: absolute;
-    background-color: #;
+    background-color: #caf0f8;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -74,9 +77,38 @@ nav {
 }
 
 #nav-tog {
-    display: none;
+    display: none; /*The checkbox won't show*/
 }
 
 .nav-tog-label {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+/* Add media query for screens of tablets and larger */
+@media screen and (min-width:768px) {
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            padding-right: 1rem;
+        }
+    
+        #menu {
+            display: flex;
+        }
+    
+        #menu>li {
+            padding-left: 1rem;
+        }
+    
+        .nav-tog-label {
+            display: none;
+        }
+    
+        #headerlogo {
+            font-size: 280%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+        }
 }
