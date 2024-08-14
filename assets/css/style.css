@@ -1,4 +1,82 @@
+/*Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*General Selection to change default outlook of website*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Body styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #03045E;
+    font-family: 'Moderustic', sans-serif;
+}
+
+h1{
+    font-family: 'Lora', sans-serif;
+    color: #03045E;
+}
+
 /*Style header*/
 header{
+    background-color: #caf0f8;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    font-size: 105%;
     
+}
+
+#menu > li{
+    margin-bottom: 1rem;
+}
+
+
+.active{
+    border-bottom: 3px solid #03045E;
+    border-radius: 0 0 1% 1%;
+}
+
+/*Style navigation elements*/
+nav {
+    position: absolute;
+    background-color: #;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #03045E;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-tog:checked~nav {
+    display: block;
+}
+
+#nav-tog {
+    display: none;
+}
+
+.nav-tog-label {
+    font-size: 2rem;
 }
