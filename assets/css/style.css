@@ -84,6 +84,25 @@ nav {
     font-size: 3rem;
 }
 
+/* Main content grows to take up available space and it's contents are centered */
+main {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+  /* Footer stays at the bottom */
+footer {
+    background-color: #03045e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 /*media query for screens of tablets and larger */
 @media screen and (min-width:768px) {
         /* Header */
