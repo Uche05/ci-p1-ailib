@@ -14,13 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #03045E;
+    color: #03045e;
     font-family: 'Moderustic', sans-serif;
 }
 
 h1{
     font-family: 'Lora', sans-serif;
-    color: #03045E;
+    color: #03045e;
 }
 
 /*Style header*/
@@ -31,6 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 2px #03045e;
 }
 
 header a{
@@ -38,7 +39,7 @@ header a{
 }
 
 #menu a{
-    color: #03045E;
+    color: #03045e;
 }
 
 #menu{
@@ -55,7 +56,7 @@ header a{
 
 
 .active{
-    border-bottom: 3px solid #03045E;
+    border-bottom: 3px solid #03045e;
     border-radius: 0 0 1% 1%;
 }
 
@@ -66,7 +67,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #03045E;
+    box-shadow: 0 2px 2px #03045e;
     display: none;
     top: 100%;
 }
@@ -95,9 +96,15 @@ main {
     text-align: center;
 }
 
-  /* Footer stays at the bottom */
+#robodiv{
+    overflow: hidden;
+    width: fit-content;
+}
+
+/* Footer stays at the bottom */
 footer {
     background-color: #03045e;
+    width: 100%;
     color: white;
     padding: 20px;
     text-align: center;
@@ -137,6 +144,6 @@ footer {
 @media screen and (min-width:992px) {
     /*Hover effect*/
     #menu a:hover{
-        border-bottom: 3px solid #03045E;
+        border-bottom: 3px solid #03045e;
     }
 }

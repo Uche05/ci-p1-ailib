@@ -72,42 +72,32 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 
 ### Colour Scheme
 
-- The chosen colour scheme for AI Library is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour.
+- The chosen colour scheme for AI Library is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour. 
+- It enables users with different color-blindeness still find the website nice to view.
 - The colours used are as follows:-
 
 - `#03045E` used for primary text.
-- `#0077B6` used for primary highlights.
-- `#` used for secondary text.
-- `#fafafa` used for secondary highlights.
-- `#7f0ffb and #c27b6f` combined to create a linear gradient background.
-- `#000` used for box shadows and modal background.
 
 I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette.
+I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people.
 
 <details>
 <summary>Click for Coolors screenshot</summary>
 
-![screenshot](documentation/ux/Create%20a%20Palette%20-%20Coolors.png)
+![screenshot](assets\images\AILib.png)
 
 </details><br>
 
 I have used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
-:root {
-  --display-background: linear-gradient(135deg, #7f0ffb, #c27b6f);
-  --text-color: #9ecffa;
-  --text-hover-color: #fafafa;
-  --box-shadow-color: #000;
-  --drop-shadow-color: #9ecffa;
-  --modal-background: rgba(0, 0, 0, 0.4);
-}
+
 ```
 
 ### Typography
 
-- I used the Google Font called 'Play' for the AI Library site.
-- I felt that this font had a nice modern style that is easy to read and that it fitted well with the AI Library site.
+- I used the Google Font called 'Moderustic' for the AI Library site.
+- I felt that this font had a cool style that is easy to read and that it fitted well with the AI Library site.
 
 - [Play](https://fonts.google.com/specimen/Play) was used for all text within the site.
 
@@ -117,7 +107,7 @@ I have used CSS `:root` variables to easily update the global colour scheme by c
 
 ### New Site Users
 
-- As a new site user, I would like to know what the site is about, so that I understand what the site does
+- As a new site user, I would like to know what the site is about, so that I understand what the site does.
 
 ### Returning Site Users
 
@@ -130,7 +120,7 @@ I have used CSS `:root` variables to easily update the global colour scheme by c
 
 ## Wireframes
 
-I made use of pen and paper to make the wireframes of my website.
+I made use of pen and paper as well as Google Slides to make the wireframes of my website.
 
 
 ### Mobile Wireframes
