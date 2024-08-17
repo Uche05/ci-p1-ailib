@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*General Selection to change default outlook of website*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -18,13 +18,13 @@ body {
     font-family: 'Moderustic', sans-serif;
 }
 
-h1{
+h1 {
     font-family: 'Lora', sans-serif;
     color: #03045e;
 }
 
 /*Style header*/
-header{
+header {
     background-color: #caf0f8;
     position: fixed;
     width: 100%;
@@ -34,15 +34,15 @@ header{
     box-shadow: 0 2px 2px #03045e;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
-#menu a{
+#menu a {
     color: #03045e;
 }
 
-#menu{
+#menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,12 +50,12 @@ header a{
     font-size: 105%;
 }
 
-#menu > li{
+#menu>li {
     margin-bottom: 1rem;
 }
 
 
-.active{
+.active {
     border-bottom: 3px solid #03045e;
     border-radius: 0 0 1% 1%;
 }
@@ -78,7 +78,8 @@ nav {
 }
 
 #nav-tog {
-    display: none; /*The checkbox won't show*/
+    display: none;
+    /*The checkbox won't show*/
 }
 
 .nav-tog-label {
@@ -96,9 +97,12 @@ main {
     text-align: center;
 }
 
-#robodiv{
-    overflow: hidden;
+#robodiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content;
+    font-size: 1.5rem;
 }
 
 /* Footer stays at the bottom */
@@ -112,38 +116,40 @@ footer {
 
 /*media query for screens of tablets and larger */
 @media screen and (min-width:768px) {
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
-    
-        #menu {
-            display: flex;
-        }
-    
-        #menu > li {
-            padding-left: 1rem;
-        }
-    
-        .nav-tog-label {
-            display: none;
-        }
-    
-        #header_logo {
-            font-size: 280%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-        }
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-tog-label {
+        display: none;
+    }
+
+    #header_logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
 }
 
 /*media query for hover effect on laptops and larger*/
 @media screen and (min-width:992px) {
+
     /*Hover effect*/
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 3px solid #03045e;
     }
 }

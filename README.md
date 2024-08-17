@@ -79,6 +79,8 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 - `#03045E` used for primary text.
 
 I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette.
+- I used [coloors.contrastchecker](https://coolors.co/contrast-checker) to check the contrast between text and background colors used
+- ensuring readibility.
 I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people.
 
 <details>
