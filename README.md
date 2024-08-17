@@ -231,21 +231,26 @@ The following are credits to various people and technologies that have directly 
 
 | Source | Location | Notes |
 | --- | --- | --- |
+|[Written Content](https://wwww.wikipedia.com)|Topics and paragraphs|Most of my topic ideas/inspiration and statements originated from using Wikipedia's blog on AI|
+|-|-|-|
 | [Toogle Menu](Love Running Project)|Main Page- Mobile Devices||
-| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | Main page | interactive pop-up (modal) for the about section |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_switch.asp) | Main page | interactive toggle switch |
-| [Wikipedia](https://en.wikipedia.org/wiki/List_of_short_place_names) | |  |
+| [Timeline Webpage](ChatGPT) | Timeline webpage | With the help of ChatGPT I was able to make a timeline webpage to illustrate the history of AI in due time |
+|-|-|-|
+
 
 ### Media
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Unsplash](https://source.unsplash.com/random?landscape) | Main changing background | image | Landscape image selection |
+|[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Main content image at home page|image| Personally constructed image |
+|(Wikipedia)[https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg] | Image for AI History page/ timelinepage| image | AI Summit 2023 Group of Reps Image|
+|[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at Home Page|image|Man Looking at computer|
+|-|-|-|-|
 
 ### Acknowledgements
 
-- I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for his support throughout the development of this project.
 - I would like to thank [Code Institute](https://codeinstitute.net) for giving me the opportunity to complete the P1 course.
 - I would like to thank the [Code Institute](https://codeinstitute.net) facilitator team [Iris Smok](https://github.com/Iris-Smok/Iris-Smok) and Irene Neville for their advice.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
