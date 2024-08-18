@@ -157,7 +157,7 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - Comment Section so others can contribute and or ask questions which can also ne answered by other users, it will be AILib's community.
 - Write my privacy notice and terms of use statements and add them to the site.
 - Dark and light mood themes.
-- 
+-
 
 ## Tools & Technologies Used
 
