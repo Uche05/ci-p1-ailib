@@ -247,6 +247,7 @@ The following are credits to various people and technologies that have directly 
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
 |[Favicon used](assets\images\robot.svg)|Favicon|With the knowledge I earned from W3schools I made the given svg file|
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo|
+|[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
 
 
 ### Media
