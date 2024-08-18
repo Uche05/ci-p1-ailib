@@ -83,7 +83,8 @@ nav {
 }
 
 .nav-tog-label {
-    font-size: 3rem;
+    font-size: 1.7rem;
+    color: #03045e;
 }
 
 /* Main content grows to take up available space and it's contents are centered */
@@ -103,6 +104,16 @@ main {
     margin-right: auto;
     width: fit-content;
     font-size: 1.5rem;
+}
+
+.special-text{
+    display: block;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ffffff;
+    background-color: #03045e;
+    color: #ffffff;
+    margin-bottom: 1.5em;
+    font-family: Montserrat;
 }
 
 /* Footer stays at the bottom */
@@ -158,6 +169,33 @@ footer {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    /*Main Content*/
+    #robodiv{
+        display: flex;
+        align-items: center;
+    }
+    
+    #robodiv img{
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    #robodiv p{
+        flex: 1;
+        margin: 0;
+    }
+
+    .special-text{
+        display: block;
+        font-size: 2.5rem;
+        border-bottom: 2px solid #ffffff;
+        background-color: #03045e;
+        color: #ffffff;
+        margin-bottom: 2em;
+        font-family: Montserrat;
     }
 }
 

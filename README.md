@@ -173,7 +173,7 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp) used to learn how to create an svg and actually create the favicon myself with their "Try It" Editor.
 - [W3Schools ClearFix Hack](https://www.w3schools.com/css/tryit.asp?filename=trycss_align_clearfix) 
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
-- [Font Awesome](https://fontawesome.com/) used to add GitHub icon to the social media icons in the footer.
+- [Font Awesome](https://fontawesome.com/) used to add icons to the social media icons in the footer.
 - [Coolors](https://coolors.co) used to check color contrasts and make interactive color pallettes.
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
 - [ChatGPT](https://chatgpt.com/) used to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage. 
