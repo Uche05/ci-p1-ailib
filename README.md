@@ -151,13 +151,18 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 | **About AI Library** | The 'About AI Library' button opens a modal that gives a little information about the site and it's creator. | ![screenshot](-) |
 | **About AI Library Modal** | The 'About AI Library Modal' displays what the site is about, what you can do on the site and why the site was created. It also contains links to the repository and where it is hosted. | ![screenshot](-) ||
 | **Footer** | The footer contains a link to the creators GitHub along with the project details. | ![screenshot](-) |
+|-|-|-|
+|-|-|-|
 
 ### Future Features
 
 - Comment Section so others can contribute and or ask questions which can also ne answered by other users, it will be AILib's community.
 - Write my privacy notice and terms of use statements and add them to the site.
-- Dark and light mood themes.
--
+- Dark and light mode themes.
+- Feedback Page to receive constructive criticsm, corrections and suggestions for my site. 
+- Recommendation engines and user authentication to enable actual sign-ins into the wbesite.
+- Apply legal guidelines into the community of AILib (also future prospect) to avoid destructive criticsm and avoid bad/derogatory comments from users to one another.
+- Change certain transitions and animations for the timeline page to make it look more attractive.
 
 ## Tools & Technologies Used
 
@@ -165,15 +170,17 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [VSCode](https://code.visualstudio.com/) used for local IDE for development.
-- [W3Schools](https://www.w3schools/) used to learn how to create the favicon and actually create the favicon myself.
+- [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp) used to learn how to create an svg and actually create the favicon myself with their "Try It" Editor.
+- [W3Schools ClearFix Hack](https://www.w3schools.com/css/tryit.asp?filename=trycss_align_clearfix) 
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
 - [Font Awesome](https://fontawesome.com/) used to add GitHub icon to the social media icons in the footer.
 - [Coolors](https://coolors.co) used to check color contrasts and make interactive color pallettes.
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
-- [ChatGPT](https://chatgpt.com/) used to personally certain concepts on written content hence enabling me to understand and give my own report for the content of the website.
--[Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word refernces on the written content. 
--[Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like. 
--[Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
+- [ChatGPT](https://chatgpt.com/) used to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage. 
+- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary. 
+- [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like. 
+- [Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
+- [Mockup Screenshots](https://ui.dev/) used to make the markup screenshots to showcase in the readme file.
 
 
 ## Testing
@@ -246,11 +253,12 @@ The following are credits to various people and technologies that have directly 
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Unsplash](https://source.unsplash.com/random?landscape) | Main changing background | image | Landscape image selection |
+|[Favicon](assets\images\robot.svg)| Favicon| SVG| Personally made SVG Favicon with knowledge on how from W3Schools|
 |[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Main content image at home page|image| Personally constructed image |
 |[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | Image for AI History page/ timelinepage| image | AI Summit 2023 Group of Reps Image|
 |[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at Home Page|image|Man Looking at computer|
 |[Toggle Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:web_traffic:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368&icon.query=curs)| Toggle Menu SVG |SVG| Toggle Hamburger Menu SVG|
+
 |-|-|-|-|
 
 ### Acknowledgements
@@ -259,6 +267,6 @@ The following are credits to various people and technologies that have directly 
 - I would like to thank [Code Institute](https://codeinstitute.net) for giving me the opportunity to complete the P1 course.
 - I would like to thank the [Code Institute](https://codeinstitute.net) facilitator team [Iris Smok](https://github.com/Iris-Smok/Iris-Smok) and Irene Neville for their advice.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
-- I would like to appreciate the [W3schools website](https://www.w3schools.com/) for their free website that educates on many technological concepts intuitively and enabled me understand and learn how to craft needed stuff for my website .
+- I would like to appreciate the [W3schools website](https://www.w3schools.com/) for their free website that educates on many technological  and coding concepts intuitively and enabled me understand and learn how to craft needed stuff for my website .
 - I would like to thank my family, for their support and understanding, for believing in me, and allowing me to make this transition into software development.
 - I personally enjoyed performing this project as it was a chance to both construct using coding and make actual content myself through research and personal study. 
