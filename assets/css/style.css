@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px #03045e;
+    /*box-shadow: 0 2px 2px #03045e;*/
 }
 
 header a {
@@ -112,6 +112,22 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+}
+#socials{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0.5%;
+}
+
+#socials > li{
+    list-style-type: none;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 165%;
+    padding: 3%;
 }
 
 /*media query for screens of tablets and larger */
