@@ -181,6 +181,7 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like. 
 - [Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
 - [Mockup Screenshots](https://ui.dev/) used to make the markup screenshots to showcase in the readme file.
+- [Emojiterra](https://emojiterra.com/) used to check for emoji hex/dec values to add into my website.
 
 
 ## Testing

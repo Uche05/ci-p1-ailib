@@ -91,7 +91,7 @@ nav {
 main {
     flex: 1;
     background-color: white;
-    padding: 20px;
+    padding: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,10 +115,29 @@ main {
     color: #ffffff;
     margin-bottom: 1.5em;
     font-family: Montserrat;
+    font-weight: bolder;
 }
 
 #whyus{
-    display: block;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 140%;
+}
+
+hr{
+    width: 50%;
+    margin: 0 auto 5%;
+    border: 1px solid #03045e;
+}
+
+#whyus > aside{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #03045e;
+    color: #ffffff;
+    padding: 2%;
+    margin: 2%;
 }
 
 /* Footer stays at the bottom */
@@ -201,6 +220,7 @@ footer {
         color: #ffffff;
         margin-bottom: 2em;
         font-family: Montserrat;
+        font-weight: bolder;
     }
 }
 
