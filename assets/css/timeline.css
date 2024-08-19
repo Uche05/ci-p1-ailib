@@ -66,7 +66,7 @@ body {
     top: -10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333;
+    background-color: #03045e;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
@@ -92,7 +92,7 @@ body {
 }
 
 .timeline-event:hover::before {
-    background-color: #e91e63;
+    background-color: #03045e;
 }
 
 @media (max-width: 768px) {
