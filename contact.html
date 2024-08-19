@@ -10,7 +10,7 @@
         <!--Link to CSS-->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    <body>
+    <>
     <!--Header-->
     <header>
         <a href="index.html"><h1 id="header_logo">AILib</h1></a>
@@ -31,24 +31,79 @@
     </header>
 
     <!--Main Content-->
+
     <main>
-        <p>Main Content</p>
+        <h2>CONTACT FORM</h2>
     </main>
 
+    <div id="con-div">
+    <fieldset>
+        <legend></legend>
+        <form action="#submited" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" required>
+    
+            <label for="email">Email-address</label>
+            <input type="email" name="Email" id="email" required>
+    </fieldset>
+    
+    <fieldset>
+        <legend></legend>
+        <label for="sw">Secret Word</label>
+        <input type="password" name="password" id="sw" required>
+    </fieldset>
+    
+    <fieldset>
+        <legend></legend>
+        <label for="fbig">What's your Facebook and Instagrm Handle?</label>
+        <input type="text" name="Handle" id="fbig">
+    
+        <label for="In">What's your LinkedIn Handle?</label>
+        <input type="text" name="LinkedIn Handle" id="In" required>
+    </fieldset>
+
+    <fieldset>
+        <legend></legend>
+        <p>How do you feel about learning AI with AILIb?</p>
+
+		<input id="v-happy" name="very-happy" value="very-happy" type="radio">
+		<label class="ems-for-forms" for="v-happy">&#128512;</label>
+
+		<input id="happy" name="happy" value="happy" type="radio">
+		<label class="ems-for-forms" for="happy">&#128578;</label>
+
+		<input id="not-interested" name="not-interested" value="not-interested" type="radio">
+		<label class="ems-for-forms" for="not-interested">&#128528;</label>
+
+		<input id="not-happy" name="not-happy" value="not-happy" type="radio">
+        <label class="ems-for-forms" for="not-happy">&#128530;</label>
+    </fieldset>
+
+        <label for="suggestions">What are your suggestions for AILib?</label>
+        <textarea id="suggestions" name="suggestions"></textarea>
+        <input type="submit" value="Submit" id="button">
+
+    </form>
+    </div>
+
+
+    <section id="submitted"></section>
     <!--Footer-->
     <footer>
         <p id="social-p">Find us on our socials!</p>
         <div>
             <ul id="socials">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="http://www.facebook.com" target="_blank" class="icon" ><i class="fa-brands fa-facebook" ></i> </a></li>
+                <li><a href="http://www.instagram.com" target="_blank" class="icon" ><i class="fa-brands fa-instagram"></i> </a></li>
+                <li><a href="http://www.twitter.com" target="_blank" class="icon" ><i class="fa-brands fa-x-twitter"></i> </a></li>
+                <li><a href="http://www.linkedin.com" target="_blank" class="icon" ><i class="fa-brands fa-linkedin"></i> </a></li>
             </ul>
         </div>
 
         <p>&copy; 2024 AILib. All Rights Reserved</p>
     </footer>
+    <!--Script after the footer-->
+    <script src="https://kit.fontawesome.com/af753a5c1b.js" crossorigin="anonymous"></script>
 
 
     </body>

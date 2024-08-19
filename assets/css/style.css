@@ -91,7 +91,7 @@ nav {
 main {
     flex: 1;
     background-color: white;
-    padding: 10%;
+    padding-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +99,9 @@ main {
     flex-direction: row;
 }
 
-#robodiv {
+#robo-div,
+#con-div,
+button {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -140,6 +142,10 @@ hr{
     margin: 2%;
 }
 
+form{
+    display: block;
+}
+
 /* Footer stays at the bottom */
 footer {
     background-color: #03045e;
@@ -159,10 +165,18 @@ footer {
     list-style-type: none;
 }
 
-.fa-brands{
+.fa-brands
+,.ems-for-forms{
     color: white;
     font-size: 165%;
     padding: 3%;
+}
+
+#button{
+    padding: 0.5%;
+    font-size: large;
+    background-color: #03045e;
+    color: #ffffff;
 }
 
 /*media query for screens of tablets and larger */
