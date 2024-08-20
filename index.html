@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Meta for seo-->
-        <meta name="description" content="AI based knowledge library by Uchechukwu C. Kpadeuwa">
-        <meta name="keywords" content="AI, AI Library, data science, knowledge, history, current state of arts, ai">
-        <!--Link to CSS-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!--Favicon-->
-        <link rel="icon" href="assets\images\robot.svg" type="image/svg+xml">
 
-    </head>
-    <body>
+<head>
+    <title>AILib</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Meta for seo-->
+    <meta name="description" content="AI based knowledge library by Uchechukwu C. Kpadeuwa">
+    <meta name="keywords" content="AI, AI Library, data science, knowledge, history, current state of arts, ai">
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Favicon-->
+    <link rel="icon" href="assets\images\robot.svg" type="image/svg+xml">
+
+</head>
+
+<body>
     <!--Header-->
     <header>
-        <a href="index.html"><h1 id="header_logo">AILib</h1></a>
+        <a href="index.html">
+            <h1 id="header_logo" aria-label="AILib">AILib</h1>
+        </a>
         <!--Checkbox Toggle Menu-->
         <input type="checkbox" name="nav-tog" id="nav-tog">
         <label for="nav-tog" class="nav-tog-label">
@@ -34,32 +38,42 @@
     </header>
 
     <!--Main Content-->
-    <!--ADD ARIA-LABELS FOR ACCESSIBILITY TOO!!!!-->
     <main>
-            <section id="robo-div">
-                <img src="assets\images\ailibimgwhite.png" alt="RobotBasicImage">
-                <p> <span class="special-text">AI made to common knowledge!</span>  Discover AI made simple and engaging! At AILib, 
-                    we turn complex concepts into enjoyable learning experiences,
-                    empowering you to explore and understand the world of Artificial Intelligence with ease. </p>
-            </section>
+        <section class="main" id="robo-div">
+            <img src="assets\images\ailibimgwhite.png" alt="RobotBasicImage">
+            <h2 class="special-text">AI made to common knowledge!</h2>
+            <p>Here at AILib, AI knowledge is made
+                simple! We turn your reading and studying about AI-based content a step further,
+                empowering you to explore and understand the world of Artificial Intelligence with ease.</p>
+        </section>
+        <hr>
+        <article id="whyus">
+            <h2>What's AILib?</h2>
+            <aside>AI explained. &#128515;</aside>
+            <aside>&#128077; There's history, current state and future suggestions.</aside>
+            <aside>It's a 100% open source and ad-free. &#129395;</aside>
+        </article>
+        
     </main>
-    <hr>
-    <article id="whyus">
-        <h2>Why AILib?</h2>
-        <aside>It's just perfect for beginners. &#128515;</aside>
-        <aside>&#128077; There's community, trust and reliability.</aside>
-        <aside>It's a 100% free. &#129395;</aside>
-    </article>
-    
+
+
     <!--Footer-->
     <footer>
         <p id="social-p">Find us on our socials!</p>
         <div>
             <ul id="socials">
-                <li><a href="http://www.facebook.com" target="_blank" class="icon" ><i class="fa-brands fa-facebook" ></i> </a></li>
-                <li><a href="http://www.instagram.com" target="_blank" class="icon" ><i class="fa-brands fa-instagram"></i> </a></li>
-                <li><a href="http://www.twitter.com" target="_blank" class="icon" ><i class="fa-brands fa-x-twitter"></i> </a></li>
-                <li><a href="http://www.linkedin.com" target="_blank" class="icon" ><i class="fa-brands fa-linkedin"></i> </a></li>
+                <li><a href="http://www.facebook.com" target="_blank" class="icon"
+                        aria-label="Go to our facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i>
+                    </a></li>
+                <li><a href="http://www.instagram.com" target="_blank" class="icon"
+                        aria-label="Go to our instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i>
+                    </a></li>
+                <li><a href="http://www.twitter.com" target="_blank" class="icon"
+                        aria-label="Go to our twitter page (opens in new tab)"><i class="fa-brands fa-x-twitter"></i>
+                    </a></li>
+                <li><a href="http://www.linkedin.com" target="_blank" class="icon"
+                        aria-label="Go to our linkedin page (opens in new tab)"><i class="fa-brands fa-linkedin"></i>
+                    </a></li>
             </ul>
         </div>
 
@@ -67,5 +81,6 @@
     </footer>
     <!--Script after the footer-->
     <script src="https://kit.fontawesome.com/af753a5c1b.js" crossorigin="anonymous"></script>
-    </body>
+</body>
+
 </html>

@@ -62,7 +62,7 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 
 | Screenshot 1 | Screenshot 2 |
 | :---: | :---: |
-| ![screenshot](assets\images\mockup1.png) | ![screenshot](assets\images\mockup2.png) |
+| ![screenshot](assets/images/mockup1.png) | ![screenshot]() |
 
 ## UX
 
