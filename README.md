@@ -1,4 +1,4 @@
-# [AI Library](https://www.here.change.this.link "Click to view the deployed site")
+# [AI Library](https://uche05.github.io/CI-PROJECTS-KUCJ/index.html "Click to view the deployed site")
 
 - AI Library is a static site that shares basic knowledge about AI, Artificial Intelligence.
 - The AI Library has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can easily comprehend its contents.
@@ -62,7 +62,7 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 
 | Screenshot 1 | Screenshot 2 |
 | :---: | :---: |
-| ![screenshot](-) | ![screenshot](-) |
+| ![screenshot](assets\images\mockup1.png) | ![screenshot](assets\images\mockup2.png) |
 
 ## UX
 
@@ -180,7 +180,7 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary. 
 - [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like. 
 - [Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
-- [Mockup Screenshots](https://ui.dev/) used to make the markup screenshots to showcase in the readme file.
+- [Am I Responsive](https://ui.dev/amiresponsive) used to make the markup screenshots to showcase in the readme file.
 - [Emojiterra](https://emojiterra.com/) used to check for emoji HTML dec values to add into my website. PS It contains different info about emojis. 
 
 
