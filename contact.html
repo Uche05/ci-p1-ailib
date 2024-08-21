@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Meta for seo-->
-        <meta name="description" content="AI and Data Science Library by Uchechukwu Christian Kpadeuwa">
-        <meta name="keywords" content="AI, AI Library, data science, knowledge, history, current state of arts, ai">
-        <!--Link to CSS-->
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Meta for seo-->
+    <meta name="description" content="AI and Data Science Library by Uchechukwu Christian Kpadeuwa">
+    <meta name="keywords" content="AI, AI Library, data science, knowledge, history, current state of arts, ai">
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<>
     <!--Header-->
     <header>
-        <a href="index.html"><h1 id="header_logo">AILib</h1></a>
+        <a href="index.html">
+            <h1 id="header_logo">AILib</h1>
+        </a>
         <!--Checkbox Toggle Menu-->
         <input type="checkbox" name="nav-tog" id="nav-tog">
         <label for="nav-tog" class="nav-tog-label">
@@ -34,60 +37,65 @@
     <!--ADD ARIA-LABELS FOR ACCESSIBILITY TOO!!!!-->
 
     <main>
-        <h2>CONTACT FORM</h2>
+        <h2 id="contact">Put in your details so we'll get in touch!</h2>
         <br>
         <div id="con-div">
-            <fieldset>
-                <legend></legend>
+            <fieldset class="fieldset-form">
+                <legend> Personal Details</legend>
                 <form action="#submited">
                     <label for="name">Name</label>
                     <input type="text" name="Name" id="name" required>
-            
+
                     <label for="email">Email-address</label>
                     <input type="email" name="Email" id="email" required>
             </fieldset>
-            
-            <fieldset>
-                <legend></legend>
+            <br>
+
+            <fieldset class="fieldset-form">
+                <legend>A secret word can be a password!</legend>
                 <label for="sw">Secret Word</label>
                 <input type="password" name="password" id="sw" required>
             </fieldset>
-            
-            <fieldset>
-                <legend></legend>
-                <label for="fbig">What's your Facebook and Instagrm Handle?</label>
-                <input type="text" name="Handle" id="fbig">
-            
+            <br>
+
+            <fieldset class="fieldset-form">
+                <legend>Your Social Handles</legend>
+                <label for="fbig">What's your Facebook or Instagram Handle?</label>
+                <input type="url" name="Handle" id="fbig">
+
                 <label for="In">What's your LinkedIn Handle?</label>
-                <input type="text" name="LinkedIn Handle" id="In" required>
+                <input type="url" name="LinkedIn Handle" id="In" required>
             </fieldset>
-        
-            <fieldset>
-                <legend></legend>
+            <br>
+
+            <fieldset class="fieldset-form">
+                <legend>What do you think of AILib so far?</legend>
                 <p>How do you feel about learning AI with AILIb?</p>
-        
-                <input id="v-happy" name="very-happy" value="very-happy" type="radio">
+
+                <input id="v-happy" name="feel" value="very-happy" type="radio">
                 <label class="ems-for-forms" for="v-happy">&#128512;</label>
-        
-                <input id="happy" name="happy" value="happy" type="radio">
+
+                <input id="happy" name="feel" value="happy" type="radio">
                 <label class="ems-for-forms" for="happy">&#128578;</label>
-        
-                <input id="not-interested" name="not-interested" value="not-interested" type="radio">
+
+                <input id="not-interested" name="feel" value="not-interested" type="radio">
                 <label class="ems-for-forms" for="not-interested">&#128528;</label>
-        
-                <input id="not-happy" name="not-happy" value="not-happy" type="radio">
+
+                <input id="not-happy" name="feel" value="not-happy" type="radio">
                 <label class="ems-for-forms" for="not-happy">&#128530;</label>
             </fieldset>
-        
-                <label for="suggestions">What are your suggestions for AILib?</label>
-                <textarea id="suggestions" name="suggestions" rows="" cols=""></textarea>
-                <input type="submit" value="Submit" id="button">
-        
+            <br>
+
+            <br>
+            <input type="checkbox" id="submitted">
+            <label for="submitted" aria-label="submit button">
+                <a href="thankyou.html" target="_blank"><input type="button" class="btn" value="Submit"></a>
+            </label>
+
             </form>
-            </div>
-        
-        
-            <section id="submitted"></section>
+        </div>
+
+
     </main>
 
     <!--Footer-->
@@ -117,4 +125,5 @@
 
 
     </body>
+
 </html>
