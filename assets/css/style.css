@@ -77,7 +77,8 @@ nav {
     display: block;
 }
 
-#nav-tog {
+#nav-tog,
+#submitted {
     display: none;
     /*The checkbox won't show*/
 }
@@ -101,8 +102,7 @@ nav {
 }
 
 #robo-div,
-#con-div,
-button {
+#con-div{
     display: block;/*realize what is redundant, this may be*/
     margin-left: auto;
     margin-right: auto;
@@ -142,8 +142,44 @@ hr{
     margin: 2%;
 }
 
-form{
-    display: block;
+form,
+.fieldset-form{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+/*Styling for the button element*/
+.btn{
+    padding: 10px 10px;
+    background-color: #03045e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:active{
+    background-color: #0077b6;
+}
+
+label  a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#submitted label{
+    display: flex;
+    justify-content: center;
+}
+
+#contact{
+    padding: 1%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Footer stays at the bottom */
@@ -171,13 +207,6 @@ footer {
     font-size: 165%;
     padding: 5%;
     margin: 2.5%;
-}
-
-#button{
-    padding: 0.5%;
-    font-size: large;
-    background-color: #03045e;
-    color: #ffffff;
 }
 
 /*media query for screens of tablets and larger */
