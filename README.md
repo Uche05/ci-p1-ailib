@@ -69,6 +69,8 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 - The design for AI Library was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
 - AI Library site was designed with ease of use and simplicity in mind.
 - A simple clean look was built so that all a user needs to do is enter their town or city name and click search.
+- AILib or AI Library is meant for people who are( supposed target auidence)
+- State certain other AILib's goals and objectives.
 
 ### Colour Scheme
 
