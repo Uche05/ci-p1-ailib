@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>AI Lib Contact Form</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Meta for seo-->
@@ -34,8 +34,6 @@
     </header>
 
     <!--Main Content-->
-    <!--ADD ARIA-LABELS FOR ACCESSIBILITY TOO!!!!-->
-
     <main>
         <h2 id="contact">Put in your details so we'll get in touch!</h2>
         <br>
@@ -84,14 +82,12 @@
                 <input id="not-happy" name="feel" value="not-happy" type="radio">
                 <label class="ems-for-forms" for="not-happy">&#128530;</label>
             </fieldset>
-            <br>
+            <br id="label">
 
-            <br>
-            <input type="checkbox" id="submitted">
-            <label for="submitted" aria-label="submit button">
-                <a href="thankyou.html" target="_blank"><input type="button" class="btn" value="Submit"></a>
-            </label>
-
+                <!--Submit Button and link to submission page-->
+                <a href="thankyou.html" target="_blank">
+                    <input type="button" class="btn" value="Submit" aria-label="submit button">
+                </a>
             </form>
         </div>
 
