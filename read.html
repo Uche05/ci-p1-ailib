@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Study</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Meta for seo-->
-        <meta name="description" content="AI and Data Science Library by Uchechukwu Christian Kpadeuwa">
-        <meta name="keywords" content="AI, AI Library, data science, knowledge, history, current state of arts, ai">
-        <!--Link to CSS-->
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
+
+<head>
+    <title>Study</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Meta for seo-->
+    <meta name="description" content="AI and Data Science Library by Uchechukwu Christian Kpadeuwa">
+    <meta name="keywords" content="AI, AI Library, data science, knowledge, history, current state of arts, ai">
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
     <!--Header-->
     <header>
-        <a href="index.html"><h1 id="header_logo">AILib</h1></a>
+        <a href="index.html">
+            <h1 id="header_logo">AILib</h1>
+        </a>
         <!--Checkbox Toggle Menu-->
         <input type="checkbox" name="nav-tog" id="nav-tog">
         <label for="nav-tog" class="nav-tog-label">
@@ -33,7 +37,234 @@
     <!--Main Content-->
     <!--ADD ARIA-LABELS FOR ACCESSIBILITY TOO!!!!-->
     <main>
-        <p>Main Content</p>
+        <section id="toc-for-read">
+            <h2>AI Read &#129299;</h2>
+            <hr>
+            <br>
+            <ol id="toc-ol">
+                <li><a href="#c1">AI Intro</a></li>
+                <li><a href="#c2">AI and its subsets</a></li>
+                <li><a href="#c3">Goals for AI</a></li>
+                <li><a href="#c4">History/Timeline of AI</a></li>
+                <li><a href="#c5">ML</a></li>
+                <li><a href="#c6">Understanding ChatGPT and LLMs</a></li>
+                <li><a href="#c7">Ethics of AI</a></li>
+                <li><a href="#c8">Fictious AI</a></li>
+                <li><a href="#c9">AILib Blog</a></li>
+                <li><a href="#c10">The Next Big Thing!</a></li>
+            </ol>
+        </section>
+
+        <article id="c1">
+            <h3>Brief Overview of AI.</h3>
+            To the best of people's knowledge a computer does things it has been explicitly told to do or programmed to
+            do. However, that is not the case with Artificial Intelligence, or AI. AI is the tech that allows computers
+            perform tasks as a human would, without any explicit programming. It's simply the act of giving a computer a
+            literal "brain". For this to be done, several other technologies and algorithms have to be implemented to
+            actually achieve this goal, including: Machine Learning, Deep Learning, Natural Language Processing and
+            others are otherwise called the subsets of Artificial Intelligence.
+
+            <details>
+                "Automation is the application of technology, programs, robotics or processes to achieve outcomes with
+                minimal human input." [From <a href="https://www.ibm.com/topics/automation">here</a> -IBM Learn 2024 ]
+                In other words, Automation refers to the use of technology to perform tasks without human intervention.
+                This
+                does mean that automation does use predefined rules and programming to handle and perform tasks
+                efficiently
+                and repeatedly. Automation is mostly sought after to perform repetitive/overwhelming tasks. It is a
+                handy
+                tool in most digital workers' toolbelts. So, can automation implement AI to perform tasks? That would be
+                a
+                game-changer such as the new Devon AI tool announced - it is possible to make automation more AI-centric
+                as
+                it would bring actual use of intelligence rather reliance on pre-defined rules.
+                <summary>Automation vs. AI</summary>
+            </details>
+            <br>
+
+            <h4>Most commonly interchangeably used terms in the field of AI.</h4>
+
+            <details> While technically different, these terms are often used interchangeably to describe the
+                mathematical process or structure used for AI tasks. An algorithm is the process or method, and a model
+                is the output or result of that process, typically used in AI tasks like prediction, classification, or
+                decision-making.
+                <summary>Algorithm vs. Model</summary>
+            </details>
+            <details> Machine Learning involves algorithms that parse data, learn from that data, and then apply what
+                they have learned to make informed decisions while Deep Learning is a subset of ML that uses layered
+                neural networks to analyze various factors of data. Deep learning is particularly powerful for tasks
+                like image and speech recognition.
+                <summary>Machine Learning vs. Deep Learning</summary>
+            </details>
+            <details> Neural Networks generally refer to systems loosely modeled after the human brain that are designed
+                to recognize patterns.
+                Artificial Neural Networks are a specific type of neural network used in computing, which are key
+                components in deep learning designs.
+                <summary>Neural Networks vs. Artifical Neural Networks(ANNs)</summary>
+            </details>
+            <details> Data Mining is the process of discovering patterns and knowledge from large amounts of data. The
+                process is exploratory.
+                Machine Learning is a method of data analysis that automates analytical model building. It uses methods
+                from neural networks, statistics, operations research, and physics to find hidden insights in data
+                without explicitly being programmed for where to look or what to conclude.
+                <summary>Data Mining vs. Machine Learning</summary>
+            </details>
+            <details> Cognitive Computing refers to systems that mimic human interaction by interpreting speech and
+                text, and responding in a human-like manner.
+                AI encompasses a wider array of technologies including those used in cognitive computing but also
+                includes systems that can perform tasks without necessarily mimicking human behavior.
+                <summary>Cognitive Computing vs. AI</summary>
+            </details>
+            <details> AI involves creating algorithms and systems that can perform tasks that typically require human
+                intelligence.
+                Robotics is the branch of technology that deals with the design, construction, operation, and
+                application of robots. When robots are equipped with AI, they can perform tasks that involve a degree of
+                autonomous decision-making. Robot and AI: While a robot is a physical machine, it often incorporates AI
+                to perform tasks autonomously, blurring the lines between the two terms.
+                <summary>AI vs. Robotics</summary>
+            </details>
+            <details> Robotic Process Automation (RPA) is a type of software automation that mimics actions that humans
+                might take, like logging into applications, entering data, completing tasks, and logging out. RPA is
+                typically rule-based and does not learn from its actions.
+                AI includes systems that can learn and adapt over time, improving their decision-making capabilities
+                based on experiences or newly acquired data.
+                <summary>RPA vs. AI</summary>
+            </details>
+            <details> Business Intelligence typically refers to technologies, applications, and practices for the
+                collection, integration, analysis, and presentation of business information. The focus is on static data
+                analysis to drive business decisions.
+                AI involves more dynamic analysis capabilities, including predictive analytics and machine learning,
+                where the system improves its analysis over time through learning.
+                <summary>BI vs. AI</summary>
+            </details>
+            <details> Predictive Analytics uses statistical models and forecasting techniques to understand the future.
+                It uses historical data to identify trends and determine how likely specific outcomes are in the future.
+                Machine Learning is a subset of AI that involves teaching a computer to learn from data and make
+                decisions based on its learning, without being explicitly programmed. It is often used within predictive
+                analytics but is broader in application and capability.
+                <summary>Predictive Analytics vs. Machine Learning</summary>
+            </details>
+            <details> Expert Systems are computer systems that emulate the decision-making ability of a human expert.
+                They use predefined rules and knowledge bases to make decisions, which means they don't learn or adapt
+                beyond their initial programming.
+                AI encompasses a wider range of technologies, including those that can learn and adapt autonomously,
+                going beyond simple rule-based system
+                <summary>Expert Systems vs. AI</summary>
+            </details>
+        </article>
+        <br>
+
+
+        <article id="c2">
+            <h3 id="ml">AI's subsets- ML</h3>
+            Machine Learning (ML) is a powerful subset of Artificial Intelligence (AI) that focuses on developing
+            algorithms and models that enable computers to learn from data and improve their performance on tasks over
+            time, without being explicitly programmed for each task. The key idea is that the machine uses patterns and
+            insights derived from data to make predictions, decisions, or recognize patterns. ML is where AI gets its
+            capabilities from.
+
+            <h4>Here are key concepts of Machine Learning</h4>
+
+            <details> This involves training a model on a labelled dataset, where the input data is paired with the
+                correct output. The model learns to predict the output from new, unseen inputs.
+                <summary>Supervised Learning</summary>
+            </details>
+            <details> The model learns from unlabelled data, identifying patterns, groupings, or structures within the
+                data without explicit instructions on what to predict.
+                <summary>Unsupervised Learning</summary>
+            </details>
+            <details>The model (often called an agent) learns by interacting with an environment and receiving feedback
+                in the form of rewards or penalties. The goal is to learn a strategy that maximizes the cumulative
+                reward.
+                <summary> Reinforcement Learning</summary>
+            </details>
+            <details> This combines a small amount of labelled data with a large amount of unlabelled data. This
+                approach is used when labelling data is expensive or time-consuming.
+                For example; text classification, where only a few documents are labelled, but the model learns to
+                classify a large number of documents.
+                <summary>Semi-supervised Learning</summary>
+            </details>
+            <details> Involves taking a pre-trained model developed for one task and applying it to a different but
+                related task. This approach leverages existing knowledge to improve performance on a new task.
+                For example: using a model trained on a large dataset of images to help classify medical images.
+                <summary>Transfer Learning</summary>
+            </details>
+            <details> This is a very specialized subset of ML <a href="#ml">(Machine Learning)</a> that uses
+                multi-layered artificial neural networks (ANNs) to model complex patterns in large datasets. Deep
+                learning models excel at tasks like image and speech recognition.
+                Example: Convolutional Neural Networks (CNNs) for image classification or Recurrent Neural Networks
+                (RNNs) for sequence data like text or time series.
+                <summary>Deep Learning</summary>
+            </details>
+            <details>These are computational models inspired by the human brain, consisting of layers of interconnected
+                nodes (neurons). ANNs are the foundation of deep learning and can learn to approximate complex functions
+                by adjusting the weights of the connections between neurons.
+                A simple ANN could be used for binary classification, while deeper, more complex ANNs are used in deep
+                learning.
+                <summary>ANNs</summary>
+            </details>
+
+            <aside>
+                <details>
+                    <ol>
+                        <li>Machine Learning Models: These include systems that learn from data to make predictions or
+                            decisions without being explicitly programmed to perform the task. Examples include
+                            predictive
+                            models in finance, recommendation systems in e-commerce, and diagnostic tools in healthcare.
+                            Natural Language Processing Systems: Technologies that process human language. This includes
+                            everything from chatbots and virtual assistants like Siri and Alexa, to more complex systems
+                            that
+                            perform sentiment analysis, language translation, or content summarization.</li><br>
+                        <li>Machines capable of undertaking tasks in the real world that are typically designed to
+                            be executed by humans. When these robots are equipped with sensors and AI algorithms to
+                            handle tasks
+                            such as navigation, manipulation, and interaction, they are considered part of AI.</li><br>
+                        <li>Expert Systems: These are AI systems that mimic the decision-making ability of a human
+                            expert. By
+                            processing a set of rules and logic, expert systems can make inferences and reach
+                            conclusions. They
+                            are used in various fields such as medicine (for diagnostic support), finance (for
+                            investment
+                            analysis), and more.</li><br>
+                        <li>Vision Systems: These systems, which include face recognition and object recognition
+                            technologies,
+                            analyze and interpret the visual world. From security systems that identify individuals to
+                            autonomous vehicles that "see" the road, these are quintessential AI applications.</li><br>
+                        <li>Speech Recognition Systems: Systems that convert spoken words to text, often employed in
+                            interactive voice response systems and virtual assistant devices. These systems understand
+                            human
+                            speech and are frequently used in devices that respond to voice commands.</li><br>
+                        <li>Autonomous Vehicles: Cars, drones, or other vehicles that use AI to navigate safely without
+                            human
+                            input. These typically involve a combination of sensors, cameras, radar, and AI to make
+                            real-time
+                            decisions.</li><br>
+                        <li>AI in Gaming: Advanced non-player characters (NPCs) in video games that adapt to player
+                            actions
+                            and strategies can be considered AI. These systems are designed to improve the gaming
+                            experience by
+                            providing responsive, challenging, and unpredictable interactions.</li><br>
+                        <li>Predictive Maintenance Systems: Used in industrial settings, these systems analyze data from
+                            equipment to predict failures before they happen. By understanding patterns and anomalies,
+                            they can
+                            preemptively suggest maintenance tasks.</li><br>
+                        Adaptive Learning Software: Educational software that adjusts content and assessments based on a
+                        student's particular needs. These systems analyze the student's performance and tailor the
+                        educational experience to optimize learning outcomes.</li><br>
+                    </ol>
+                    <summary>
+                        <h3>What can I call AI?</h3>
+                    </summary>
+                </details>
+            </aside>
+        </article>
+        <br>
+
+        <article>
+
+        </article>
+        <br>
+
     </main>
 
     <!--Footer-->
@@ -50,7 +281,7 @@
                 <li><a href="http://www.twitter.com" target="_blank" class="icon"
                         aria-label="Go to our twitter page (opens in new tab)"><i class="fa-brands fa-x-twitter"></i>
                     </a></li>
-                <li><a href="http://www.linkedin.com" target="_blank" class="icon"
+                <li><a href="https://www.linkedin.com/in/christian-k-399bab215" target="_blank" class="icon"
                         aria-label="Go to our linkedin page (opens in new tab)"><i class="fa-brands fa-linkedin"></i>
                     </a></li>
             </ul>
@@ -62,5 +293,6 @@
     <script src="https://kit.fontawesome.com/af753a5c1b.js" crossorigin="anonymous"></script>
 
 
-    </body>
+</body>
+
 </html>

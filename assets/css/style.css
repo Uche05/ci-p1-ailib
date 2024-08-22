@@ -89,7 +89,8 @@ nav {
 
 /*Main content selectors' styles*/
 #robo-div,
-#con-div{
+#con-div,
+#toc-for-read{
     display: block;
     margin: 0px auto;
     width: fit-content;
@@ -160,11 +161,27 @@ form,
 }
 
 #contact{
-    padding: 1%;
+    padding: 5%;
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/*Style all details and summary*/
+details {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #03045e;
+    color: #ffffff;
+}
+
+summary {
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Remove default triangle icon README WORTHY!*/
 }
 
 /* Footer stays at the bottom */
@@ -183,7 +200,8 @@ footer {
     margin: 2%;
 }
 
-#socials > li{
+#socials > li,
+#toc-ol{
     list-style-type: none;
 }
 
