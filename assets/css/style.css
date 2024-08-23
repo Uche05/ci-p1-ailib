@@ -132,6 +132,12 @@ hr{
     margin: 3.5%;
 }
 
+/*Styling so that all links are not underlined and style to match text*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /*Styling for the form and its elements*/
 form,
 .fieldset-form{
@@ -140,7 +146,9 @@ form,
     flex-direction: column;
 }
 
-.btn{
+#btn{
+    display: inline-block;
+    text-decoration: none;
     margin-bottom: 2px;
     padding: 10px 10px;
     background-color: #03045e;
@@ -149,10 +157,6 @@ form,
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-}
-
-.btn:active{
-    background-color: #0077b6;
 }
 
 #label  a{
