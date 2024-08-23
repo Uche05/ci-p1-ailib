@@ -173,24 +173,20 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [VSCode](https://code.visualstudio.com/) used for local IDE for development.
 - [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp) used to learn how to create an svg and actually create the favicon myself with their "Try It" Editor.
-- [W3Schools ClearFix Hack](https://www.w3schools.com/css/tryit.asp?filename=trycss_align_clearfix) 
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
 - [Font Awesome](https://fontawesome.com/) used to add icons to the social media icons in the footer.
 - [Coolors](https://coolors.co) used to check color contrasts and make interactive color pallettes.
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
+Here are screenshots to know how what they(the color-blinded) perceive.
+| ![screenshot](-) | ![screenshot](-) | ![screenshot](-) |
 - [ChatGPT](https://chatgpt.com/) used to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage. 
-- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary. 
-- [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like. 
+- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
+- [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like.
 - [Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
 - [Am I Responsive](https://ui.dev/amiresponsive) used to make the markup screenshots to showcase in the readme file.
 - [Emojiterra](https://emojiterra.com/) used to check for emoji HTML dec values to add into my website. PS It contains different info about emojis. 
 
-
-## Testing
-
-- Click [here]() to see results on testing.
-
-
+## [Testing](TESTING.md)
 
 ## Deployment
 
@@ -242,14 +238,14 @@ The following are credits to various people and technologies that have directly 
 
 | Source | Location | Notes |
 | --- | --- | --- |
-|[Written Content](https://en.wikipedia.org/wiki/Artificial_intelligence)|Topics and paragraphs|Most of my topic ideas/inspiration and statements originated from using Wikipedia's blog about AI|
-|[Written Content Source and Actual Arrangement](https://onedrive.live.com/redir?resid=169491061D215030%21165&page=Edit&wd=target%28CompSciResearchToC.one%7C1473a864-1486-4c3b-b237-d074c17f2533%2F1.%20AI%20intro%7C7f209a27-06b3-450a-9cbe-e06a7cfa2fcf%2F%29&wdorigin=NavigationUrl)|Actual Content| All my written content source and actual arangement and writeup|
-|[History Knowledge](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)|History Page written content|Picked out/learnt the history of AI from the page. |
-|[Toogle Menu](https://uche05.github.io/CIstuff/)|Main Page- Mobile Devices|Toggle Menu Idea was from Love Running Project taught by Code Institute|
+|[Written Content](https://en.wikipedia.org/wiki/Artificial_intelligence)|Topics and paragraphs|Most of my topic ideas/inspiration and statements originated from using Wikipedia webpage about Artifical Intelligence|
+|[Written Content Source and Actual Arrangement of written content](https://onedrive.live.com/redir?resid=169491061D215030%21165&page=Edit&wd=target%28CompSciResearchToC.one%7C1473a864-1486-4c3b-b237-d074c17f2533%2F1.%20AI%20intro%7C7f209a27-06b3-450a-9cbe-e06a7cfa2fcf%2F%29&wdorigin=NavigationUrl)|Actual Content| All my written content source and actual arangement and writeup|
+|[History Knowledge](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)|History Page written content|Picked out/learnt the history of AI from the page to make timeline. |
+|[Toogle Menu](https://uche05.github.io/CIstuff/)|Main Page- Mobile Devices|Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute|
 | [Timeline Webpage](https://chatgpt.com/) | Timeline webpage | With the help of ChatGPT I was able to make a timeline webpage to illustrate the history of AI in due time |
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
 |[Favicon used](assets\images\robot.svg)|Favicon|With the knowledge I earned from W3schools I made the given svg file|
-|[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo|
+|[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo for the both "README" and "TESTING"|
 |[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
 
 
@@ -259,8 +255,8 @@ The following are credits to various people and technologies that have directly 
 | --- | --- | --- | --- |
 |[Favicon](assets\images\robot.svg)| Favicon| SVG| Personally made SVG Favicon with knowledge on how from W3Schools|
 |[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Main content image at home page|image| Personally constructed image |
-|[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | Image for AI History page/ timelinepage| image | AI Summit 2023 Group of Reps Image|
-|[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at Home Page|image|Man Looking at computer|
+|[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | Image at AI History section/ timeline section| image | AI Summit 2023 Group of Reps Image|
+|[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at About Page|image|Man Looking at computer|
 |[Toggle Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:web_traffic:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368&icon.query=curs)| Toggle Menu SVG |SVG| Toggle Hamburger Menu SVG|
 
 |-|-|-|-|
