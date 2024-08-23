@@ -89,30 +89,45 @@ I have tested my deployed project using the [WAVE](https://wave.webaim.org/) web
 
 ## Bugs
 
-The following are bugs that I have come across while creating the Your Weather site.
-- Identified from using the HTML Validator to check my code intially, I made empty values for the id attribute in my nav-bar image element.
-- From mr "Read Page" I made my 
+The following are bugs that I have come across while creating the AI Lib Site.
 
-***
+### HTML
+
+- Bad value for attribute id on element img as by the HTML Validator, An ID must not be the empty string.
+- To resolve this, I simply removed any id attribute to the img element(s).
+
+- No alt attribute in an img element.
+- This was resolved as it was the image element of the navbar and I simply gave it the alternative name, "menu".
+
+- Text inserted directly in the "details" element as by HTML Validator, Text not allowed in element details in this context.
+- I simply used the paragraph element, "p" to nest all text used in the details element(s).
+
+- Text inserted directly in the "ol" element as by HTML Validator, Text not allowed in element ol in this context. (3)
+- I used appropriate list elements to subdue the naked texts.
+
+- Br used as child of "ol" as by HTML Validator, Element br not allowed as child of element ol in this context.
+- I removed all br elements in my code.
+
+- Certain elements were misplaced as stated by HTML Validator, "No li element in scope but a li end tag seen".
+- I located such element and deleted the excesses.
+
+- Text inserted directly into summary element, as stated by HTML Validator, "Text not allowed in element ___ in this context."
+- To first fix this I made use of the p element to nest the text, however it still resulted in an error,
+so I checked the W3C document recommended and used ChatGPT to provide me aid to this problem and I needed to use an inline element to wrap naked text unto
+for a summary element.
+I ended up using the "em" element but replaced it with the "span" element as the "em" made the 'overall look too much boldening to see'.
+
+- Summary element at the wrong position inside the details element. This resulted in two errors thus stating,
+"Element details is missing a required instance of child element summary."
+,"Element summary not allowed as child of element details in this context."
+- To fix this error I placed the summary element before the text rather than after.
+
+- Used \ instead of / in creating paths for file documents.
+- Simply used the forward slash characher(/) to put relative file paths.
+
+### CSS
 
 - Initial Sunrise and Sunset times displayed as GMT timezone.
-
-| Original image | Bug fixed image |
-| :---: | :---: |
-| ![screenshot](documentation/bugs/sunrise-set-gmt-date.png) | ![screenshot](documentation/bugs/sunrise-set-timezone-offset.png)
-
-- To fix this I added a timezone offset and formatted the data to display only the time for the timezone of the city requested.
-
-***
-
-- Mixed content - This error prevented the deployed site from loading the weather data from the api.
-- To fix this error I found he fix on MDN web docs and I edited all links that displayed as http:// to https://.
-
-***
-
-- Uncaught in promise error (network error) - This error was preventing the deployed site from fetching any data from the api but only while using Firefox, it was fine on other browsers.
-- To fix this error I tried adding a catch to the geolocation api fetch but this broke the site. After a little research it turned out that by turning off the ad blocker extension I had on firefox the api was then able to fetch the data.
-***
 
 - Favicon would not display on GitHub pages deployed site, but would show locally.
 - To fix this, I first tried changing the image, then changing the image name, but these did not fix the issue and after a little research it was noted that the link to where the image was located needed to have a '.' at the start of the link.
