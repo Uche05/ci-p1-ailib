@@ -158,8 +158,8 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 
 ### Future Features
 
-- Comment Section so others can contribute and or ask questions which can also ne answered by other users, it will be AILib's community.
-- Write my privacy notice and terms of use statements and add them to the site.
+- Comment Section and Blog Post so others can contribute and or ask questions which can also be answered by other users, it will be AILib's community.
+- Write the privacy notice and terms of use statements and add them to the site.
 - Dark and light mode themes.
 - Feedback Page to receive constructive criticsm, corrections and suggestions for my site. 
 - Recommendation engines and user authentication to enable actual sign-ins into the wbesite.
@@ -171,7 +171,7 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [VSCode](https://code.visualstudio.com/) used for local IDE for development.
+- [VSCode](https://code.visualstudio.com/) used for local IDE for development. It possessed extensions which helped me immensely during my making of the site
 - [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp) used to learn how to create an svg and actually create the favicon myself with their "Try It" Editor.
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
 - [Font Awesome](https://fontawesome.com/) used to add icons to the social media icons in the footer.
@@ -179,12 +179,17 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
 Here are screenshots to know how what they(the color-blinded) perceive.
 | ![screenshot](-) | ![screenshot](-) | ![screenshot](-) |
-- [ChatGPT](https://chatgpt.com/) used to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage. 
+- [ChatGPT](https://chatgpt.com/) used to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage.
 - [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
 - [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like.
 - [Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
 - [Am I Responsive](https://ui.dev/amiresponsive) used to make the markup screenshots to showcase in the readme file.
-- [Emojiterra](https://emojiterra.com/) used to check for emoji HTML dec values to add into my website. PS It contains different info about emojis. 
+- [Emojiterra](https://emojiterra.com/) used to check for emoji HTML dec values to add into my website. PS It contains different info about emojis.
+- [W3C HTML Validator]() used to do checks for errors on HTML elements.
+- [Jigsaw CSS Validator]() used to do checks for errors on CSS elements.
+- [Wave]() used to check accessibility status of website.
+- DevTools(in web browsers) used to check regular responsivity, accessibility and overall decent previews of website before and after deployment.
+- [Synthesia]()
 
 ## [Testing](TESTING.md)
 
@@ -245,8 +250,10 @@ The following are credits to various people and technologies that have directly 
 | [Timeline Webpage](https://chatgpt.com/) | Timeline webpage | With the help of ChatGPT I was able to make a timeline webpage to illustrate the history of AI in due time |
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
 |[Favicon used](assets\images\robot.svg)|Favicon|With the knowledge I earned from W3schools I made the given svg file|
+|[]()| Video in the about page | --- |
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo for the both "README" and "TESTING"|
 |[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
+
 
 
 ### Media
