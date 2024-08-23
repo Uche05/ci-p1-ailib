@@ -182,10 +182,15 @@ details {
 }
 
 summary {
-    font-family: cursive;
+    font-family: inherit;
     font-weight: bold;
     cursor: pointer;
     list-style: none; /* Remove default triangle icon README WORTHY!*/
+}
+
+/*style ol elements to not have any list-style*/
+summary ~ ol{
+    list-style-type: none;
 }
 
 /*Timeline styling on read page*/
@@ -377,6 +382,7 @@ footer {
     }
 }
 
+/*Media query for timeline*/
 @media (max-width: 480px) {
     .timeline-event {
         width: 90%;
