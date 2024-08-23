@@ -69,7 +69,8 @@
                 </summary>
                 <p>"Automation is the application of technology, programs, robotics or processes to achieve outcomes
                     with
-                    minimal human input." [From <a href="https://www.ibm.com/topics/automation" target="_blank">here</a> -IBM Learn 2024
+                    minimal human input." [From <a href="https://www.ibm.com/topics/automation" target="_blank">here</a>
+                    -IBM Learn 2024
                     ]
                     In other words, Automation refers to the use of technology to perform tasks without human
                     intervention.
@@ -349,7 +350,7 @@
             <h4>"The various subfields of AI research are centered around particular goals and the use of particular
                 tools. The traditional goals of AI research include&nbsp;reasoning,&nbsp;knowledge
                 representation,&nbsp;planning,&nbsp;learning,&nbsp;natural language processing, perception, and support
-                for&nbsp;robotics.
+                for robotics.
                 ~From <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">here</a>
             </h4>
 
@@ -359,37 +360,29 @@
                 </summary>
                 <p>Reasoning and Problem-Solving: Develop algorithms that enable machines to reason logically, solve
                     puzzles,
-                    and make decisions, incorporating methods to handle uncertainty and incomplete information.
-                    Knowledge Representation: Create systems that represent and utilize knowledge about the world,
+                    and make decisions, incorporating methods to handle uncertainty and incomplete information.</p>
+                <p>Knowledge Representation: Create systems that represent and utilize knowledge about the world,
                     enabling
-                    AI
-                    to make informed decisions using knowledge bases and ontologies. This goal has been achieved by
-                    certain
-                    AI
-                    models such as ChatGPT by OpenAI, Gemini, formally Google Bard by Google LLC and Microsoft Copilot
-                    by
-                    Microsoft.
-                    Planning and Decision-Making: Equip AI agents with the ability to plan actions and make decisions
+                    AI to make informed decisions using knowledge bases and ontologies. This goal has been achieved by
+                    certain AImmodels such as ChatGPT by OpenAI, Gemini, formally Google Bard by Google LLC and
+                    Microsoft Copilot by Microsoft.</p>
+                <p>Planning and Decision-Making: Equip AI agents with the ability to plan actions and make decisions
                     that
-                    achieve goals or optimize outcomes, even under uncertain conditions.
-                    Learning: Design systems that can learn from data, improving their performance over time through
+                    achieve goals or optimize outcomes, even under uncertain conditions.</p>
+                <p>Learning: Design systems that can learn from data, improving their performance over time through
                     various
-                    forms of machine learning, including supervised, unsupervised, and reinforcement learning.
-                    Natural Language Processing (NLP): Enable machines to understand, generate, and interact using human
-                    language, tackling tasks like speech recognition, machine translation, and text generation.
-                    Perception: Develop AI that can perceive and interpret sensory inputs, such as vision, sound, and
+                    forms of machine learning, including supervised, unsupervised, and reinforcement learning.</p>
+                <p>Natural Language Processing (NLP): Enable machines to understand, generate, and interact using human
+                    language, tackling tasks like speech recognition, machine translation, and text generation.</p>
+                <p>Perception: Develop AI that can perceive and interpret sensory inputs, such as vision, sound, and
                     touch,
-                    to understand and interact with the physical world.
-                    Social Intelligence: Create AI systems that recognize and simulate human emotions, facilitating
-                    socially
-                    intelligent interactions that are more engaging and human-like.
-                    General Intelligence: Pursue the long-term goal of developing Artificial General Intelligence (AGI),
-                    capable
-                    of performing a wide range of tasks with the versatility and eadth of human intelligence. In other
-                    words,
-                    the ability to complete any task performable by a human on an at least equal level—is among the
-                    field's
-                    long-term goals.
+                    to understand and interact with the physical world.</p>
+                <p>Social Intelligence: Create AI systems that recognize and simulate human emotions, facilitating
+                    socially intelligent interactions that are more engaging and human-like.</p>
+                <p>General Intelligence: Pursue the long-term goal of developing Artificial General Intelligence (AGI),
+                    capable of performing a wide range of tasks with the versatility and eadth of human intelligence.
+                    In other words, the ability to complete any task performable by a human on an at least
+                    equal level—is among the field's long-term goals.</p>
             </details>
         </article>
 
@@ -428,27 +421,233 @@
 
         <article id="c5">
             <h3>Understanding ML</h3>
+            <h4>Machine Learning algorithms</h4>
+            <h5>Machine Learning (ML) algorithms are fundamental to the field of artificial intelligence, providing the
+                means through which computers can learn from and make predictions or decisions based on data.
+                <strong>
+                    The choice of algorithm depends on the type of data available, the specific task at hand, and the
+                    desired outcome.
+                </strong>
+            </h5>
+
+            <details>
+                <summary>
+                    <em> How Machine Learning Algorithms Are Used</em>
+                </summary>
+                <p>- Feature Selection and Engineering: Before applying machine learning algorithms, significant effort
+                    goes into
+                    selecting the appropriate features (input variables) that make the most sense for the model to learn
+                    effectively.
+                    - Model Training: Algorithms learn from data by adjusting their parameters to minimize error between
+                    their
+                    predictions and the actual outcomes of the data.
+                    - Model Evaluation: After training, models are evaluated using metrics like accuracy, precision,
+                    recall, and F1
+                    score for classification tasks, or mean squared error for regression tasks.
+                    - Model Optimization: Techniques such as grid search or random search are used to find the optimal
+                    settings for the
+                    model’s parameters to improve performance.
+                    - Prediction: Once trained and validated, models are used to predict outcomes on new, unseen data.
+                </p>
+            </details>
+
+            <h4>Types of Machine Learning Algorithms </h4>
+
+            <details>
+                <summary>
+                    <em>Supervised Machine Learning Models</em>
+                </summary>
+                <p>
+                    These algorithms are trained using labeled data, i.e., data which has an input paired with the
+                    correct output. The algorithm learns a model on this data to be able to predict the output
+                    associated with new inputs.
+                </p>
+            </details>
+            <details>
+                <summary>
+                    <em>Unsupervised Machine Learning Models</em>
+                </summary>
+                <p>
+                    These algorithms are used when the data has no labels, and the goal is to infer the natural
+                    structure present within a set of data points.
+                </p>
+            </details>
+            <details>
+                <summary>
+                    <em>Semi-supervised Machine Learning Models</em>
+                </summary>
+                <p>
+                    Combines a small amount of labeled data with a large amount of unlabeled data during training.
+                    Semi-supervised learning is useful when the cost of labeling data is too high.
+                </p>
+            </details>
+            <details>
+                <summary>
+                    <em>Reinforcement Machine Learning Models</em>
+                </summary>
+                <p>
+                    In this type of ML, the algorithm learns to make specific decisions by trying to maximize a reward
+                    signal. The learner is not told which actions to take but instead must discover which actions yield
+                    the most reward by trying them.
+                </p>
+            </details>
+
+            <h4>Examples of each mentioned type</h4>
+            <details>
+                <summary>
+                    <em>Supervised Machine Learning Models</em>
+                </summary>
+                <ol>
+                    <li>Linear Regression: Used for predicting a continuous value. For example, predicting house prices
+                        based on features like area, age of the house, location, etc. </li>
+                    <li>Logistic Regression: Used for binary classification tasks, such as spam detection or predicting
+                        whether a customer will buy a product or not. </li>
+                    <li>Decision Trees and Random Forests: These are used for classification and regression tasks. They
+                        are particularly useful for medical diagnosis, customer segmentation, and financial analysis.
+                    </li>
+                </ol>
+            </details>
+            <details>
+                <summary>
+                    <em>Unsupervised Machine Learning Models</em>
+                </summary>
+                <ol>
+                    <li>Clustering Algorithms (e.g., K-means, DBSCAN): Used to group a set of objects in such a way that
+                        objects in the same group are more similar to each other than to those in other groups. Common
+                        applications include customer segmentation, grouping experiment outcomes, and market
+                        segmentation.</li>
+                    <li>Principal Component Analysis (PCA): A dimensionality reduction technique used to reduce the
+                        dimensionality of large data sets, increasing interpretability while minimizing information
+                        loss. </li>
+                </ol>
+            </details>
+            <details>
+                <summary>
+                    <em>Semi-supervised Machine Learning Models</em>
+                </summary>
+                <p>
+                    It is used for tasks like image and video annotation where manual labeling is labor-intensive but
+                    unlabeled data is plentiful.
+                </p>
+            </details>
+            <details>
+                <summary>
+                    <em>Reinforcement Machine Learning Models</em>
+                </summary>
+                <p>
+                    It is used for developing self-learning agents like those used in video games, autonomous vehicles,
+                    or robot navigation systems.
+                </p>
+            </details>
+
+
         </article>
 
 
         <article id="c6">
             <h3>Understanding ChatGPT and other LLMs</h3>
+            <h4>To be able to know as stated we'll explain how ChatGPT, a large language model developed by OpenAI based
+                on the GPT (Generative Pre-trained Transformer) architecture's components/features are.</h4>
+
+            <dl>
+                <dt>It's Core</dt>
+                <dd>ChatGPT is built on a neural network architecture known as a transformer(this concept was introduced
+                    on a paper, “Attention is All You Need” by Vaswani et al. in 2017), which is particularly
+                    effective for processing and generating natural language. They use self-attention meachansims to
+                    produce input data. It involves
+                    weighing the importance of each word in a sentence, regardless of their position to enable it
+                    understand the context and relationships between words in a sentence.</dd>
+            </dl>
+
+            <dl>
+                <dt>The Training Process</dt>
+                <dd>This consists of <strong>pre-training</strong> where GPT models undergo a phase of pre-training
+                    where they learn from
+                    a vast tanks of text data using unsupervised learning as GPT models are typically trained using a
+                    variant of language modeling, specifically predicting the next word in a sequence given the previous
+                    words (autoregressive language modeling). This helps the model learn a broad understanding of
+                    language, including grammar, facts, and various language styles and semantics.
+                    After pre-training, the model can be fine-tuned on smaller, task-specific datasets.
+                    This stage tailors the model’s general capabilities to particular applications such as answering
+                    questions, translating text, or generating content. Supervised Learning is used in
+                    <strong>fine-tuning</strong>,
+                    the model might use labeled data specific to a task, adjusting its parameters to minimize error
+                    and optimize performance for that task.
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>Structural components</dt>
+                <dd>- Multi-Head Attention (Layers and heads): Each layer has multiple 'heads' in its attention
+                    mechanisms, allowing the model to simultaneously focus on different parts of the input sequence for
+                    better context understanding.
+                    - Feed-Forward Neural Networks: Each layer also includes feed-forward neural networks that process
+                    the outputs from the attention mechanisms.
+                    - Normalization and Residual Connections: These are used in each layer to help stabilize the
+                    learning process and improve the flow of gradients through the network during training.
+                    - Input Embeddings: Words are converted into numerical form to be processed by the model. Each word
+                    is represented by a unique vector in a high-dimensional space.
+                    - Positional Encoding: Since transformers do not inherently process the order of the input (unlike
+                    RNNs), positional encodings are added to give the model information about the position of words in
+                    the input sequence.
+
+
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>Decoding strategies for teext generation</dt>
+                <dd>When generating text, GPT uses various strategies to decide which word to produce next:
+                    - Greedy Decoding: Always picks the most likely next word.
+                    - Beam Search: Considers multiple possible sequences simultaneously, choosing the sequence that has
+                    the overall
+                    highest probability.
+                    - Top-K Sampling: Randomly picks the next word from the top K likely candidates, balancing
+                    creativity and accuracy.
+                </dd>
+            </dl>
         </article>
 
 
 
         <article id="c7">
-            <h3>AI and Ethics</h3>
+
+            <details>
+                <summary>
+                    <h3>Ethics with AI</h3>
+                </summary>
+                <p>
+
+                </p>
+            </details>
         </article>
 
 
         <article id="c8">
             <h3>AI and Fiction</h3>
+
+            <details>
+                <summary>
+                    <em></em>
+                </summary>
+                <p>
+
+                </p>
+            </details>
         </article>
 
 
         <article id="c9">
             <h3>AILib and our blog on AI.</h3>
+
+            <details>
+                <summary>
+                    <em></em>
+                </summary>
+                <p>
+
+                </p>
+            </details>
         </article>
 
 
