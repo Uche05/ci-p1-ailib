@@ -22,7 +22,7 @@
         <!--Checkbox Toggle Menu-->
         <input type="checkbox" name="nav-tog" id="nav-tog">
         <label for="nav-tog" class="nav-tog-label">
-            <img id="" src="assets/images/navtog.svg">
+            <img src="assets/images/navtog.svg" alt="menu">
         </label>
         <!--Nav Bar-->
         <nav id="navbar">
@@ -39,59 +39,60 @@
     <main>
         <h2 id="contact">Put in your details so we'll get in touch!</h2>
         <br>
-        <div id="con-div">
-            <fieldset class="fieldset-form">
-                <legend> Personal Details</legend>
-                <form action="#submited">
+        <form>
+            <div id="con-div">
+                <fieldset class="fieldset-form">
+                    <legend> Personal Details</legend>
+
                     <label for="name">Name</label>
                     <input type="text" name="Name" id="name" required>
 
                     <label for="email">Email-address</label>
                     <input type="email" name="Email" id="email" required>
-            </fieldset>
-            <br>
+                </fieldset>
+                <br>
 
-            <fieldset class="fieldset-form">
-                <legend>Password!</legend>
-                <label for="sw">Secret Word</label>
-                <input type="password" name="password" id="sw" required>
-            </fieldset>
-            <br>
+                <fieldset class="fieldset-form">
+                    <legend>Password!</legend>
+                    <label for="sw">Secret Word</label>
+                    <input type="password" name="password" id="sw" required>
+                </fieldset>
+                <br>
 
-            <fieldset class="fieldset-form">
-                <legend>Social Handles</legend>
-                <label for="fbig">What's your Facebook or Instagram Handle?</label>
-                <input type="url" name="Handle" id="fbig">
+                <fieldset class="fieldset-form">
+                    <legend>Social Handles</legend>
+                    <label for="fbig">What's your Facebook or Instagram Handle?</label>
+                    <input type="url" name="Handle" id="fbig">
 
-                <label for="In">What's your LinkedIn Handle?</label>
-                <input type="url" name="LinkedIn Handle" id="In" required>
-            </fieldset>
-            <br>
+                    <label for="In">What's your LinkedIn Handle?</label>
+                    <input type="url" name="LinkedIn Handle" id="In" required>
+                </fieldset>
+                <br>
 
-            <fieldset class="fieldset-form">
-                <legend>What you think.</legend>
-                <p>How do you feel about learning AI with AILIb?</p>
+                <fieldset class="fieldset-form">
+                    <legend>What you think.</legend>
+                    <p>How do you feel about learning AI with AILIb?</p>
 
-                <input id="v-happy" name="feel" value="very-happy" type="radio">
-                <label class="ems-for-forms" for="v-happy">&#128512;</label>
+                    <input id="v-happy" name="feel" value="very-happy" type="radio">
+                    <label class="ems-for-forms" for="v-happy">&#128512;</label>
 
-                <input id="happy" name="feel" value="happy" type="radio">
-                <label class="ems-for-forms" for="happy">&#128578;</label>
+                    <input id="happy" name="feel" value="happy" type="radio">
+                    <label class="ems-for-forms" for="happy">&#128578;</label>
 
-                <input id="not-interested" name="feel" value="not-interested" type="radio">
-                <label class="ems-for-forms" for="not-interested">&#128528;</label>
+                    <input id="not-interested" name="feel" value="not-interested" type="radio">
+                    <label class="ems-for-forms" for="not-interested">&#128528;</label>
 
-                <input id="not-happy" name="feel" value="not-happy" type="radio">
-                <label class="ems-for-forms" for="not-happy">&#128530;</label>
-            </fieldset>
-            <br id="label">
+                    <input id="not-happy" name="feel" value="not-happy" type="radio">
+                    <label class="ems-for-forms" for="not-happy">&#128530;</label>
+                </fieldset>
+                <br id="label">
 
-            <!--Submit Button and link to submission page-->
-            <a href="thankyou.html" target="_blank">
-                <input type="button" class="btn" value="Submit" aria-label="submit button">
-            </a>
-            </form>
-        </div>
+                <!--Use a link(a) tag and style as button-->
+                <a href="thankyou.html" target="_blank" id="btn">Submit</a>
+                
+            </div>
+        </form>
+
     </main>
 
     <!--Footer-->
