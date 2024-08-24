@@ -125,9 +125,12 @@ I ended up using the "em" element but replaced it with the "span" element as the
 - Used \ instead of / in creating paths for file documents.
 - Simply used the forward slash characher(/) to put relative file paths.
 
-### CSS
+- When making a button for the contact form, I nested a button element in an "a" element.
+- I simply removed the button element and styled the "a" element to look like a button instead.
 
-- Initial Sunrise and Sunset times displayed as GMT timezone.
+- <b>NOTE</b>: I made use of a W3C Validator Extension to make the testing process smoothier and faster. Note I still used the validation website afterwards!
+
+### CSS
 
 - Favicon would not display on GitHub pages deployed site, but would show locally.
 - To fix this, I first tried changing the image, then changing the image name, but these did not fix the issue and after a little research it was noted that the link to where the image was located needed to have a '.' at the start of the link.
