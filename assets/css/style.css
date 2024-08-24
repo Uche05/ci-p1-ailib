@@ -1,14 +1,14 @@
 /*Google Fonts Import*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*General Selection to change default outlook of website*/
+/*General Selection to change default outlook of website from Love Running by Code Institute*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Body styles */
+/* General Body styles from Love Running by Code Institute*/
 body {
     min-height: 100vh;
     display: flex;
@@ -32,7 +32,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*box-shadow: 0 2px 2px #03045e;*/
 }
 
 header a {
@@ -181,6 +180,16 @@ form,
     justify-content: center;
 }
 
+/*Styling the about page*/
+#about h2{
+    text-align: center;
+    font-size: 110%;
+}
+
+video{
+ margin: 1px auto;
+}
+
 /*Styling main content for the read page*/
 #toc {
     margin-bottom: 20px;
@@ -249,7 +258,7 @@ summary {
     color: inherit;
 }
 
-/*Timeline styling*/
+/*Timeline styling with aid from ChatGPT*/
 
 /* Timeline container */
 .timeline-container {
@@ -466,7 +475,7 @@ footer {
     }
 }
 
-/*Timeline media queries*/
+/*Timeline media queries with aid from ChatGPT*/
 /* Responsive styling for tablets and below (vertical layout) */
 @media (max-width: 1024px) {
     .timeline-container {
