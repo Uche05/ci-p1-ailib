@@ -15,4 +15,11 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "terminal.integrated.gpuAcceleration": "canvas",
+   "spellright.language": [
+      "en"
+   ],
+   "spellright.documentTypes": [
+      "latex",
+      "plaintext"
+   ],
 }
