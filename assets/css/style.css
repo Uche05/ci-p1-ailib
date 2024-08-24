@@ -13,12 +13,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     /* Generic project styles */
     color: #03045e;
     font-family: 'Moderustic', sans-serif;
 }
 
-h1{
+h1 {
     font-family: 'Lora', sans-serif;
     color: #03045e;
 }
@@ -77,7 +78,7 @@ nav {
     display: block;
 }
 
-#nav-tog{
+#nav-tog {
     display: none;
     /*The checkbox won't show*/
 }
@@ -90,17 +91,17 @@ nav {
 /*Main content selectors' styles*/
 #robo-div,
 #con-div,
-#toc-for-read{
+#toc-for-read {
     display: block;
     margin: 0px auto;
     width: fit-content;
     font-size: 1.5rem;
     background-color: white;
-    padding-top: 10%;
+    padding-top: 20%;
     text-align: center;
 }
 
-.special-text{
+.special-text {
     font-size: 1.6rem;
     border-bottom: 2px solid #ffffff;
     background-color: #03045e;
@@ -110,21 +111,21 @@ nav {
     font-weight: bolder;
 }
 
-#whyus{
+#whyus {
     text-align: center;
     line-height: 1.4;
     font-size: 140%;
 }
 
-hr{
+hr {
     width: 50%;
     margin: 5% auto;
     border: 1px solid #03045e;
 }
 
-#whyus > aside{
+#whyus>aside {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #03045e;
     color: #ffffff;
@@ -132,21 +133,29 @@ hr{
     margin: 3.5%;
 }
 
+/*Main styling for the about page*/
+#about {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /*Styling so that all links are not underlined and style to match text*/
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
 /*Styling for the form and its elements*/
 form,
-.fieldset-form{
+.fieldset-form {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: column;
 }
 
-#btn{
+#btn {
     display: inline-block;
     text-decoration: none;
     margin-bottom: 2px;
@@ -159,12 +168,12 @@ form,
     font-size: 20px;
 }
 
-#label  a{
+#label a {
     text-align: center;
     text-decoration: none;
 }
 
-#contact{
+#contact {
     padding: 5%;
     margin-top: 5%;
     display: flex;
@@ -172,33 +181,87 @@ form,
     justify-content: center;
 }
 
-/*Style all details and summary*/
-details {
+/*Styling main content for the read page*/
+#toc {
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+#toc ol {
+    list-style-type: none;
+    text-align: center;
+}
+
+#toc li {
+    font-size: larger;
+    margin-bottom: 4px;
+}
+
+#toc a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#toc a:hover {
+    text-decoration: underline;
+}
+
+/*style ol elements to not have any list-style*/
+summary~ol {
+    list-style-type: none;
+}
+
+/*Style dt elements to be bold*/
+dt {
+    font-weight: bolder;
+}
+
+/*Style pre elements to inherit fonts from parent*/
+pre {
+    font-family: inherit;
+}
+
+/*Style to make the articles collapsible and style its elements*/
+.article-read {
+    margin-bottom: 20px;
+    border: 1px solid #03045e;
     padding: 10px;
-    border: 1px solid #ffffff;
-    border-radius: 8px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+summary {
+    list-style: none;
+}
+
+.article-read details summary {
+    margin: 1%;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
     background-color: #03045e;
     color: #ffffff;
 }
 
-summary {
-    font-family: inherit;
-    font-weight: bold;
-    cursor: pointer;
-    list-style: none; /* Remove default triangle icon README WORTHY!*/
+.article-read details p {
+    margin: 10px 0;
+    color: inherit;
 }
 
-/*style ol elements to not have any list-style*/
-summary ~ ol{
-    list-style-type: none;
-}
+/* Timeline styling on read page */
 
-/*Timeline styling on read page*/
+/* Timeline styling on read page */
 .timeline-container {
     width: 80%;
     overflow-x: auto;
+    overflow-y: hidden;
+    /* Prevent vertical overflow */
+    margin: 0 auto;
+    /* Center the container */
 }
 
+/* Base styles for larger screens (horizontal layout) */
 .timeline {
     display: flex;
     justify-content: space-between;
@@ -222,6 +285,10 @@ summary ~ ol{
     position: relative;
     width: 30%;
     text-align: center;
+    margin: 0 10px;
+    /* Add some spacing between events */
+    flex-shrink: 0;
+    /* Prevent events from shrinking */
 }
 
 .timeline-content {
@@ -255,7 +322,8 @@ summary ~ ol{
     padding: 5px 10px;
     border-radius: 4px;
     white-space: nowrap;
-    z-index: 2;
+    z-index: 100;
+    /* Ensure tooltip is always on top */
 }
 
 .timeline-event:hover .tooltip {
@@ -279,6 +347,78 @@ summary ~ ol{
     background-color: #03045e;
 }
 
+/* Responsive styling for mobile and tablets (vertical layout) */
+@media (max-width: 768px) {
+    .timeline {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 0;
+        overflow-y: auto;
+        /* Enable vertical scrolling for smaller screens */
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+        height: 500px;
+        /* Set a reasonable height for scrolling */
+    }
+
+    .timeline::before {
+        top: 0;
+        left: 50%;
+        width: 4px;
+        height: 100%;
+    }
+
+    .timeline-event {
+        width: 80%;
+        margin-bottom: 30px;
+        /* Add space between events */
+        text-align: left;
+        /* Align text to the left */
+    }
+
+    .timeline-event::before {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .tooltip {
+        top: -40px;
+        /* Adjust tooltip position for vertical layout */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+    .timeline {
+        height: 400px;
+        /* Set a smaller height for scrolling */
+    }
+
+    .timeline-event {
+        width: 100%;
+        /* Make events take full width */
+        text-align: center;
+        /* Center text on very small screens */
+    }
+
+    .timeline-event::before {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tooltip {
+        top: -30px;
+        /* Adjust tooltip position for smaller screens */
+    }
+}
+
+
+
 /* Footer stays at the bottom */
 footer {
     background-color: #03045e;
@@ -287,25 +427,29 @@ footer {
     padding: 20px;
     text-align: center;
 }
-#socials{
+
+#socials {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1%;
     margin: 2%;
 }
 
-#socials > li,
-#toc-ol{
+#socials>li {
     list-style-type: none;
 }
 
-.fa-brands
-,.ems-for-forms{
+.fa-brands,
+.ems-for-forms {
     color: white;
     font-size: 165%;
     padding: 5%;
     margin: 2.5%;
+}
+
+#read-footer {
+    margin-top: 10px;
 }
 
 /*media query for screens of tablets and larger */
@@ -339,23 +483,23 @@ footer {
     }
 
     /*Main Content*/
-    #robodiv{
+    #robodiv {
         display: flex;
         align-items: center;
     }
-    
-    #robodiv img{
+
+    #robodiv img {
         max-width: 100%;
         height: auto;
         margin-right: 20px;
     }
 
-    #robodiv p{
+    #robodiv p {
         flex: 1;
         margin: 0;
     }
 
-    .special-text{
+    .special-text {
         font-size: 2.5rem;
         border-bottom: 2px solid #ffffff;
         background-color: #03045e;
@@ -375,17 +519,44 @@ footer {
     }
 }
 
-/*media query for timeline on read page*/
-@media (max-width: 768px) {
-    .timeline-event {
-        width: 45%;
+/* For screens with a max width of 1024px (iPads and smaller) */
+@media (max-width: 1024px) {
+    .timeline-container {
+        overflow-y: auto;
+        /* Enable vertical scrolling for smaller screens */
+        overflow-x: hidden;
     }
-}
 
-/*Media query for timeline*/
-@media (max-width: 480px) {
+    .timeline {
+        flex-direction: column;
+        /* Stack the events vertically */
+        justify-content: flex-start;
+        align-items: center;
+        height: 400px;
+        /* Adjust the height as needed */
+    }
+
+    .timeline::before {
+        top: 0;
+        left: 50%;
+        width: 4px;
+        height: 100%;
+        transform: translateX(-50%);
+    }
+
     .timeline-event {
-        width: 90%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .timeline-event::before {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .timeline-content {
+        padding: 15px;
+        text-align: center;
     }
 }
