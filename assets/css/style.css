@@ -187,13 +187,6 @@ form,
     padding: 2%;
 }
 
-#toc h2{
-    padding: 2%;
-    margin-top: 6%;
-    text-align: center;
-    font-size: 260%;
-}
-
 #toc ol {
     list-style-type: none;
     text-align: center;
@@ -256,19 +249,19 @@ summary {
     color: inherit;
 }
 
-/* Timeline styling on read page */
+/*Timeline styling*/
 
-/* Timeline styling on read page */
+/* Timeline container */
 .timeline-container {
     width: 80%;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: scroll;
+    overflow-y: visible;
     /* Prevent vertical overflow */
     margin: 0 auto;
     /* Center the container */
 }
 
-/* Base styles for larger screens (horizontal layout) */
+/* Timeline styles for larger screens */
 .timeline {
     display: flex;
     justify-content: space-between;
@@ -296,6 +289,8 @@ summary {
     /* Add some spacing between events */
     flex-shrink: 0;
     /* Prevent events from shrinking */
+    overflow: visible;
+    /* Ensure that tooltips can overflow outside this element */
 }
 
 .timeline-content {
@@ -305,34 +300,50 @@ summary {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     z-index: 1;
+    overflow: visible;
+    /* Ensure the content doesn't clip the tooltip */
 }
 
 .timeline-content h3 {
     margin: 0 0 10px;
     font-size: 1.2em;
-    color: #333;
+    color: #03045e;
 }
 
 .timeline-content p {
     margin: 0;
-    color: #666;
+    color: #0077b6;
 }
 
+/* Tooltip styling */
 .tooltip {
     display: none;
     position: absolute;
     top: -10px;
+    /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     background-color: #03045e;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
-    white-space: nowrap;
-    z-index: 100;
+    white-space: normal;
+    /* Allow text to wrap */
+    z-index: 1000;
     /* Ensure tooltip is always on top */
+    max-width: 80vw;
+    /* Prevent the tooltip from exceeding the viewport width */
+    word-wrap: break-word;
+    /* Break long words if necessary */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add shadow for better visibility */
+    text-align: center;
+    /* Center text inside the tooltip */
+    pointer-events: none;
+    /* Prevent tooltips from blocking other interactions */
 }
 
+/* Display tooltip on hover */
 .timeline-event:hover .tooltip {
     display: inline-block;
 }
@@ -344,7 +355,7 @@ summary {
     left: 50%;
     width: 12px;
     height: 12px;
-    background-color: #00b4d8;
+    background-color: #0077b6;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -352,50 +363,6 @@ summary {
 
 .timeline-event:hover::before {
     background-color: #03045e;
-}
-
-/* Responsive styling for mobile and tablets (vertical layout) */
-@media (max-width: 768px) {
-    .timeline {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding: 10px 0;
-        overflow-y: auto;
-        /* Enable vertical scrolling for smaller screens */
-        overflow-x: hidden;
-        /* Prevent horizontal scrolling */
-        height: 500px;
-        /* Set a reasonable height for scrolling */
-    }
-
-    .timeline::before {
-        top: 0;
-        left: 50%;
-        width: 4px;
-        height: 100%;
-    }
-
-    .timeline-event {
-        width: 80%;
-        margin-bottom: 30px;
-        /* Add space between events */
-        text-align: left;
-        /* Align text to the left */
-    }
-
-    .timeline-event::before {
-        left: 50%;
-        top: 0;
-        transform: translate(-50%, -50%);
-    }
-
-    .tooltip {
-        top: -40px;
-        /* Adjust tooltip position for vertical layout */
-        left: 50%;
-        transform: translateX(-50%);
-    }
 }
 
 
@@ -499,12 +466,14 @@ footer {
     }
 }
 
-/* For screens with a max width of 1024px (iPads and smaller) */
+/*Timeline media queries*/
+/* Responsive styling for tablets and below (vertical layout) */
 @media (max-width: 1024px) {
     .timeline-container {
         overflow-y: auto;
         /* Enable vertical scrolling for smaller screens */
         overflow-x: hidden;
+        /* Prevent horizontal scrolling */
     }
 
     .timeline {
@@ -526,7 +495,10 @@ footer {
 
     .timeline-event {
         width: 100%;
+        /* Make events take full width */
         margin: 20px 0;
+        text-align: center;
+        /* Center text on smaller screens */
     }
 
     .timeline-event::before {
@@ -535,9 +507,11 @@ footer {
         transform: translate(-50%, -50%);
     }
 
-    .timeline-content {
-        padding: 15px;
-        text-align: center;
+    .tooltip {
+        top: -40px;
+        /* Adjust tooltip position for vertical layout */
+        max-width: 90vw;
+        /* Ensure tooltips fit on smaller screens */
     }
 }
 
