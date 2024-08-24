@@ -4,15 +4,16 @@
 - The AI Library has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can easily comprehend its contents.
 - AI Library is especially handy for those wish to learn more about AI and its history and state of the arts.
 - AI Library showcases fundamental AI knowledge as well as advise to the generation where it has become more efficient.
-- AI Library has ---.
-- AI Library is the AI website for everyone. The wikifandom website for just for knowing about AI and it is free.
+- AI Library is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
+- AI Library also contains Machine Learning baseed knowledge.
+
 
 ## Table of Contents
 
 <details>
 <summary>Click here for Table of Contents</summary>
 
-[Mockup Screenshots](#mockup-screenshots)
+[Mock-up Screenshots](#mockup-screenshots)
 
 [UX](#ux)
 
@@ -56,9 +57,9 @@
 
 </details>
 
-## Mockup Screenshots
+## Mock-up Screenshots
 
-Below are two mockup images of the AI Library website created using the "Am I Responsive" website <a href="https://ui.dev/">here</a>.
+Below are two mock-up images of the AI Library website created using the "Am I Responsive" website <a href="https://ui.dev/">here</a>.
 
 | Screenshot 1 | Screenshot 2 |
 | :---: | :---: |
@@ -68,32 +69,20 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 
 - The design for AI Library was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
 - AI Library site was designed with ease of use and simplicity in mind.
-- A simple clean look was built so that all a user needs to do is enter their town or city name and click search.
-- AILib or AI Library is meant for people who are( supposed target auidence)
-- State certain other AILib's goals and objectives.
+- A simple clean look was built so that all a user feels comfortable and neutral when using AILib to study.
+- AILib or AI Library is meant for people who are need knowledge of AI and it's state of the arts.
 
 ### Colour Scheme
 
-- The chosen colour scheme for AI Library is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour. 
-- It enables users with different color-blindeness still find the website nice to view.
+- The chosen colour scheme for AI Library is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour aesthetic for color-blinded people.
 - The colours used are as follows:-
-- 
---federal-blue: #03045eff;
---honolulu-blue: #0077b6ff;
---pacific-cyan: #00b4d8ff;
---non-photo-blue: #90e0efff;
---light-cyan: #caf0f8ff;
+- #03045e (Federal Blue)
+- #0077b6
+- #ffffff (white)
 
-- I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette.
-- I used [coloors.contrastchecker](https://coolors.co/contrast-checker) to check the contrast between text and background colors used, ensuring readibility.
+- I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette initially.
+- I used [coloors.contrastchecker](https://coolors.co/contrast-checker) to check the contrast between text and background colors used, ensuring readability.
 - I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people.
-
-<details>
-<summary>Click for Coolors pallette screenshot</summary>
-
-![screenshot](assets\images\AILib.png)
-
-</details><br>
 
 
 ### Typography
@@ -114,7 +103,7 @@ Below are two mockup images of the AI Library website created using the "Am I Re
 
 ### Returning Site Users
 
-- As a returning site user, I would like to 
+- As a returning site user, I would like to
 ![screenshot](documentation/ux/Create%20a%20Palette%20-%20Coolors.png)
 
 ### Future Site Users
@@ -249,6 +238,7 @@ The following are credits to various people and technologies that have directly 
 |[Toogle Menu](https://uche05.github.io/CIstuff/)|Main Page- Mobile Devices|Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute|
 | [Timeline Webpage](https://chatgpt.com/) | Timeline webpage | With the help of ChatGPT I was able to make a timeline webpage to illustrate the history of AI in due time |
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
+|[Summary list-type style]()| Style "list-style" used to style summary elements  | Learnt that from aid from ChatGPT with prompt, "How can I remove the arrow from a summary element" |
 |[Favicon used](assets\images\robot.svg)|Favicon|With the knowledge I earned from W3schools I made the given svg file|
 |[]()| Video in the about page | --- |
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo for the both "README" and "TESTING"|
