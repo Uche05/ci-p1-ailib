@@ -5,8 +5,7 @@
 - AI Library is especially handy for those wish to learn more about AI and its history and state of the arts.
 - AI Library showcases fundamental AI knowledge as well as advise to the generation where it has become more efficient.
 - AI Library is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
-- AI Library also contains Machine Learning baseed knowledge.
-
+- AI Library also contains Machine Learning based knowledge.
 
 ## Table of Contents
 
@@ -59,11 +58,11 @@
 
 ## Mock-up Screenshots
 
-Below are two mock-up images of the AI Library website created using the "Am I Responsive" website <a href="https://ui.dev/">here</a>.
+Below are two mock-up images of the AI Library website created using the  <a href="https://ui.dev/">"Am I Responsive" website</a>.
 
 | Screenshot 1 | Screenshot 2 |
 | :---: | :---: |
-| ![screenshot](.\assets/images/mockup1.png) | ![screenshot](.\) |
+| ![screenshot](documentation\features\readmeimages\mockup1.png) | ![screenshot](documentation\features\readmeimages\mockup2.png) |
 
 ## UX
 
@@ -82,15 +81,14 @@ Below are two mock-up images of the AI Library website created using the "Am I R
 
 - I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette initially.
 - I used [coloors.contrastchecker](https://coolors.co/contrast-checker) to check the contrast between text and background colors used, ensuring readability.
-- I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people.
+- I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people. This feature was available in Firefox's Developer tools.
 
 
 ### Typography
 
-- I used the Google Font called 'Moderustic' for the AI Library site and 'Lora' for the header. 
+- I used the Google Font called 'Moderustic' for the AI Library site and 'Lora' for the header.
 - I felt that this font had a cool style that is easy to read and that it fitted well with the AI Library site.
-
-- [Play](https://fonts.google.com/specimen/Play) was used for all text within the site.
+- Montserrat was specifically used for the main content text. 
 
 ##
 - [Font Awesome](https://fontawesome.com) icons were used in the AI Library site, for GitHub links in the footer and modal and for the search icon in the main weather card.
@@ -100,15 +98,27 @@ Below are two mock-up images of the AI Library website created using the "Am I R
 ### New Site Users
 
 - As a new site user, I would like to know what the site is about, so that I understand what the site does.
+![Screenshot](documentation/features/whatailibisabout.png)
+- As a new site user, I would like to easily navigate through the website intuitively.
+![Screenshot](documentation/features/navmenu.png)
+- As a new user (mobile reader), I want to browse through a timeline of articles or events,
+so that I can easily navigate to content based on the date or relevance.
+![Screenshot](documentation/features/readandnav.png)
+- As a new mobile user, I want to have a vertically scrollable timeline that adjusts to my screen size, so that I can easily read and interact with content on my device.
+![Screenshot](documentation/features/mobilewebview.png)
+- As a new user, I want to be able to give my contact information to the site for the sake of being contacted.
+![Screenshot]()
+- As a new user, I would want to identify the brand on social media such as Facebook or Instagram.
+![Screenshot]()
 
 ### Returning Site Users
 
-- As a returning site user, I would like to
-![screenshot](documentation/ux/Create%20a%20Palette%20-%20Coolors.png)
+- As a returning site user, I would like to be able to access the articles easily.
+![screenshot](documentation\features\navmenu.png)
 
 ### Future Site Users
 
-- As a future site user, I would like to
+- As a future site user, I would like to explore a timeline of feature releases, so that I can see how the site has evolved over time.
 
 ## Wireframes
 
@@ -178,7 +188,7 @@ Here are screenshots to know how what they(the color-blinded) perceive.
 - [Jigsaw CSS Validator]() used to do checks for errors on CSS elements.
 - [Wave]() used to check accessibility status of website.
 - DevTools(in web browsers) used to check regular responsivity, accessibility and overall decent previews of website before and after deployment.
-- [Synthesia]()
+- [Synthesia]() used to make ai lib intro video.
 
 ## [Testing](TESTING.md)
 
@@ -236,11 +246,10 @@ The following are credits to various people and technologies that have directly 
 |[Written Content Source and Actual Arrangement of written content](https://onedrive.live.com/redir?resid=169491061D215030%21165&page=Edit&wd=target%28CompSciResearchToC.one%7C1473a864-1486-4c3b-b237-d074c17f2533%2F1.%20AI%20intro%7C7f209a27-06b3-450a-9cbe-e06a7cfa2fcf%2F%29&wdorigin=NavigationUrl)|Actual Content| All my written content source and actual arangement and writeup|
 |[History Knowledge](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)|History Page written content|Picked out/learnt the history of AI from the page to make timeline. |
 |[Toogle Menu](https://uche05.github.io/CIstuff/)|Main Page- Mobile Devices|Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute|
-| [Timeline Webpage](https://chatgpt.com/) | Timeline webpage | With the help of ChatGPT I was able to make a timeline webpage to illustrate the history of AI in due time |
+| [Timeline Section](https://chatgpt.com/) | Timeline section on the read page | With the help of ChatGPT I was able to make a timeline section to illustrate the history of AI in due time and in my visual idea|
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
-|[Summary list-type style]()| Style "list-style" used to style summary elements  | Learnt that from aid from ChatGPT with prompt, "How can I remove the arrow from a summary element" |
 |[Favicon used](assets\images\robot.svg)|Favicon|With the knowledge I earned from W3schools I made the given svg file|
-|[]()| Video in the about page | --- |
+|[Video Used](https://app.synthesia.io/)| Video in the about page | I used synthesia to make a quick video about AI Lib |
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo for the both "README" and "TESTING"|
 |[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
 
