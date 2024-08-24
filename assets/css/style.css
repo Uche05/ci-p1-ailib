@@ -187,6 +187,13 @@ form,
     padding: 2%;
 }
 
+#toc h2{
+    padding: 2%;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 260%;
+}
+
 #toc ol {
     list-style-type: none;
     text-align: center;
@@ -337,7 +344,7 @@ summary {
     left: 50%;
     width: 12px;
     height: 12px;
-    background-color: #4CAF50;
+    background-color: #00b4d8;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -390,33 +397,6 @@ summary {
         transform: translateX(-50%);
     }
 }
-
-/* Extra small screens (phones) */
-@media (max-width: 480px) {
-    .timeline {
-        height: 400px;
-        /* Set a smaller height for scrolling */
-    }
-
-    .timeline-event {
-        width: 100%;
-        /* Make events take full width */
-        text-align: center;
-        /* Center text on very small screens */
-    }
-
-    .timeline-event::before {
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .tooltip {
-        top: -30px;
-        /* Adjust tooltip position for smaller screens */
-    }
-}
-
 
 
 /* Footer stays at the bottom */
@@ -558,5 +538,31 @@ footer {
     .timeline-content {
         padding: 15px;
         text-align: center;
+    }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+    .timeline {
+        height: 400px;
+        /* Set a smaller height for scrolling */
+    }
+
+    .timeline-event {
+        width: 100%;
+        /* Make events take full width */
+        text-align: center;
+        /* Center text on very small screens */
+    }
+
+    .timeline-event::before {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tooltip {
+        top: -30px;
+        /* Adjust tooltip position for smaller screens */
     }
 }
