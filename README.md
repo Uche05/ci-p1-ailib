@@ -62,7 +62,7 @@ Below are two mock-up images of the AI Library website created using the  <a hre
 
 | Screenshot 1 | Screenshot 2 |
 | :---: | :---: |
-| ![screenshot](documentation\features\readmeimages\mockup1.png) | ![screenshot](documentation\features\readmeimages\mockup2.png) |
+| ![screenshot](documentation/features/readmeimages/mockup1.png) | ![screenshot](documentation/features/readmeimages/mockup2.png) |
 
 ## UX
 
@@ -126,7 +126,7 @@ so that I can easily navigate to content based on the date or relevance.
 ### Future Site Users
 
 - As a future site user, I would like to explore a timeline of feature releases, so that I can see how the site has evolved over time.
-- AS a future site user, I want to click on a timeline event to be taken to a detailed page about that update or feature,
+- AS a future site user, I want to click on a timeline event to be taken to a detailed page with images about that update or feature,
 so that I can learn more about the specific changes or improvements.
 
 ## Wireframes
@@ -158,18 +158,21 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **About AI Library** | The 'About AI Library' link opens a modal that gives a little information about the site. | ![screenshot]() |
-| **About AI Library Modal** | The 'About AI Library Modal' displays what the site is about, what you can do on the site and why the site was created. It also contains links to the repository and where it is hosted. | ![screenshot]() ||
-| **Footer** | The footer contains a link to the creators social media links. | ![screenshot](-) |
-|-|-|-|
-|-|-|-|
+| **About AI Library** | The 'About AI Library' link opens a modal that gives a little information about the site. | ![screenshot](documentation\features\landingpage1.png) |
+| **Navigation Menu of AI Lib** | The 'About AI Library Nav menu' contains links to the other webpages in the site. | ![screenshot](documentation\features\navmenu.png) ||
+| **Footer** | The footer contains a link to the creators social media links. | ![screenshot](documentation\features\socialsinfooter.png) |
+|**Read Page**| The read page contains the written content about AI - based knowledge including the AI Timeline|![screenshot](documentation\features\readandnav.png)|
+|**AI Timeline in Read Page**|This is the history of AI portrayed as a timeline in a section of the Read page|![screenshot](documentation\features\timelinehover.png)|
+| **Read Content Details & Summary Use** | The read section contained quite the number of details and summary elements to portary information on AI | ![screenshot](documentation\features\readcontent.png) |
+| **Roboot-like image** | The landing page color-synced image used was made by the developer himself | ![Screenshot](documentation\features\roboimage.png) |
+
 
 ### Future Features
 
 - Comment Section and Blog Post so others can contribute and or ask questions which can also be answered by other users, it will be AILib's community.
 - Write the privacy notice and terms of use statements and add them to the site.
 - Dark and light mode themes.
-- Feedback Page to receive constructive criticsm, corrections and suggestions for my site. 
+- Feedback Page to receive constructive criticsm, corrections and suggestions for my site.
 - Recommendation engines and user authentication to enable actual sign-ins into the wbesite.
 - Apply legal guidelines into the community of AILib (also future prospect) to avoid destructive criticsm and avoid bad/derogatory comments from users to one another.
 - Change certain transitions and animations for the timeline page to make it look more attractive.
@@ -208,11 +211,11 @@ Here are screenshots to know how what they(the color-blinded) perceive.
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Uche05/CI-PROJECTS-KUCJ), navigate to the Settings tab.
+- In the [GitHub repository](https://github.com/Uche05/ci-p1-ailib), navigate to the Settings tab.
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://uche05.github.io/CI-PROJECTS-KUCJ/).
+The live link can be found [here](https://uche05.github.io/ci-p1-ailib/).
 
 ### Local Deployment
 
@@ -222,13 +225,13 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Uche05/CI-PROJECTS-KUCJ).
+1. Go to the [GitHub repository](https://github.com/Uche05/ci-p1-ailib).
 2. Locate the Code button above the list of files and click it.
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
 4. Open Git Bash or Terminal.
 5. Change the current working directory to the one where you want the cloned directory.
 6. In your IDE Terminal, type the following command to clone my repository:
-    - `git clone https://github.com/Uche05/CI-PROJECTS-KUCJ.git`
+    - `git clone https://github.com/Uche05/ci-p1-ailib.git`
 7. Press Enter to create your local clone.
 
 For Gitpod users, this was not implemented on gitpod, it was from my local PC directly to Github via git and some useful VSCode extensions.
@@ -238,7 +241,7 @@ For Gitpod users, this was not implemented on gitpod, it was from my local PC di
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Uche05/CI-PROJECTS-KUCJ).
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Uche05/ci-p1-ailib).
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account.
 
@@ -260,12 +263,8 @@ The following are credits to various people and technologies that have directly 
 |[Toogle Menu](https://uche05.github.io/CIstuff/)|Main Page- Mobile Devices|Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute|
 | [Timeline Section](https://chatgpt.com/) | Timeline section on the read page | With the help of ChatGPT I was able to make a timeline section to illustrate the history of AI in due time and in my visual idea|
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
-|[Favicon used](assets\images\robot.svg)|Favicon|With the knowledge I earned from W3schools I made the given svg file|
-|[Video Used](https://app.synthesia.io/)| Video in the about page | I used synthesia to make a quick video about AI Lib |
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo for the both "README" and "TESTING"|
 |[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
-
-
 
 ### Media
 
@@ -275,9 +274,10 @@ The following are credits to various people and technologies that have directly 
 |[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Main content image at home page|image| Personally constructed image |
 |[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | Image at AI History section/ timeline section| image | AI Summit 2023 Group of Reps Image|
 |[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at About Page|image|Man Looking at computer|
-|[Toggle Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:web_traffic:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368&icon.query=curs)| Toggle Menu SVG |SVG| Toggle Hamburger Menu SVG|
-
-|-|-|-|-|
+|[Toggle Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:web_traffic:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368&icon.query=curs)| Toggle Menu SVG |SVG| Toggle Hamburger Menu SVG from Google Fonts|
+|[Favicon used](assets\images\robot.svg)|Favicon|Favicon|With the knowledge I earned from W3schools I made the given svg file|
+|[Video Used](https://app.synthesia.io/)| Video in the about page | Video |I used synthesia to make a quick video about AI Lib |
+|[Social media Icons Used](https://fontawesome.com/search?o=r&m=free)| Social media icons used in the footer| Icons | I used Font Awesome to obtain the icons used for the footer |
 
 ### Acknowledgements
 
