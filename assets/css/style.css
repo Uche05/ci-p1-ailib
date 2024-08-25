@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 header a {
@@ -89,10 +90,19 @@ nav {
 
 /*Main content selectors' styles*/
 #robo-div,
-#con-div,
 #toc-for-read {
     display: block;
-    margin: 0px auto;
+    margin: 5px auto;
+    width: fit-content;
+    font-size: 1.5rem;
+    background-color: white;
+    padding-top: 20%;
+    text-align: center;
+}
+
+#con-div{
+    display: block;
+    margin: 10% auto;
     width: fit-content;
     font-size: 1.5rem;
     background-color: white;
@@ -102,7 +112,6 @@ nav {
 
 .special-text {
     font-size: 1.6rem;
-    border-bottom: 2px solid #ffffff;
     background-color: #03045e;
     color: #ffffff;
     margin-bottom: 1.5em;
@@ -147,9 +156,14 @@ a {
 }
 
 /*Styling for the form and its elements*/
-form,
+form{
+    display: block;
+    position: relative; /* or absolute, depending on the need */
+}
+
 .fieldset-form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -157,7 +171,9 @@ form,
 #btn {
     display: inline-block;
     text-decoration: none;
-    margin-bottom: 2px;
+    text-align: center;
+    width: 25%;
+    margin:  5px auto 25%;
     padding: 10px 10px;
     background-color: #03045e;
     color: #ffffff;
@@ -173,6 +189,9 @@ form,
 }
 
 #contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 5%;
     margin-top: 5%;
     display: flex;
@@ -377,8 +396,11 @@ summary {
 
 /* Footer stays at the bottom */
 footer {
-    background-color: #03045e;
+    position: relative;
+    bottom: 0;
     width: 100%;
+    z-index: 2;
+    background-color: #03045e;
     color: white;
     padding: 20px;
     text-align: center;
@@ -474,6 +496,20 @@ footer {
         border-bottom: 3px solid #03045e;
     }
 }
+
+/*Media query for laptops or larger for contact form*/
+@media screen and (min-width: 1024px) {
+    #contact {
+        display: block;
+        width: 80%; /* Adjust width according to screen size */
+        margin: 0 auto;
+    }
+
+    .fieldset-form{
+        display: block;
+    }
+}
+
 
 /*Timeline media queries with aid from ChatGPT*/
 /* Responsive styling for tablets and below (vertical layout) */
