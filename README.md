@@ -110,6 +110,7 @@ so that I can easily navigate to content based on the date or relevance.
 ![Screenshot]()
 - As a new user, I would want to identify the brand on social media such as Facebook or Instagram.
 ![Screenshot]()
+- As a new user, I want to see a brief video on what AI Lib is about
 
 ### Returning Site Users
 
