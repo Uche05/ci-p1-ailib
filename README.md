@@ -107,21 +107,21 @@ so that I can easily navigate to content based on the date or relevance.
 - As a new mobile user, I want to have a vertically scrollable home page that adjusts to my screen size, so that I can easily read and interact with content on my device.
 ![Screenshot](documentation/features/mobilewebview.png)
 - As a new user, I want to be able to give my contact information to the site for the sake of being contacted.
-![Screenshot](documentation\features\contactformview.png)
+![Screenshot](documentation/features/contactformview.png)
 - As a new user, I would want to identify the brand on social media such as Facebook or Instagram.
-![Screenshot](documentation\features\socialsinfooter.png)
+![Screenshot](documentation/features/socialsinfooter.png)
 - As a new user, I want to see a brief video on what AI Lib is about.
-![Screenshot](documentation\features\aboutvideo.png)
+![Screenshot](documentation/features/aboutvideo.png)
 - As a new mobile user, I want to have a vertically scrollable contact form.
-![Screenshot](documentation\features\verticalcontactform.png)
+![Screenshot](documentation/features/verticalcontactform.png)
 - As a new mobile user, I want to have a vertically scrollable timeline as it fits my screen size.
-![Screenshot](documentation\features\verticaltimelinehover.png)
+![Screenshot](documentation/features/verticaltimelinehover.png)
 
 
 ### Returning Site Users
 
 - As a returning site user, I would like to be able to access the articles easily.
-![screenshot](documentation\features\navmenu.png)
+![screenshot](documentation/features/navmenu.png)
 
 ### Future Site Users
 
@@ -138,19 +138,19 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 
 | Main page |
 | :---: |
-| ![screenshot](documentation\features\mobilewireframe1.png) |
+| ![screenshot](documentation/features/mobilewireframe1.png) |
 
 ### Tablet Wireframes
 
 | Main page |
 | :---: |
-| ![screenshot](documentation\features\tabletwireframe.png) |
+| ![screenshot](documentation/features/tabletwireframe.png) |
 
 ### Desktop Wireframes
 
 | Main page |
 | :---: |
-| ![screenshot](documentation\features\desktopwireframe.png) |
+| ![screenshot](documentation/features/desktopwireframe.png) |
 
 ## Features
 
@@ -158,13 +158,13 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **About AI Library** | The 'About AI Library' link opens a modal that gives a little information about the site. | ![screenshot](documentation\features\landingpage1.png) |
-| **Navigation Menu of AI Lib** | The 'About AI Library Nav menu' contains links to the other webpages in the site. | ![screenshot](documentation\features\navmenu.png) ||
-| **Footer** | The footer contains a link to the creators social media links. | ![screenshot](documentation\features\socialsinfooter.png) |
-|**Read Page**| The read page contains the written content about AI - based knowledge including the AI Timeline|![screenshot](documentation\features\readandnav.png)|
-|**AI Timeline in Read Page**|This is the history of AI portrayed as a timeline in a section of the Read page|![screenshot](documentation\features\timelinehover.png)|
-| **Read Content Details & Summary Use** | The read section contained quite the number of details and summary elements to portary information on AI | ![screenshot](documentation\features\readcontent.png) |
-| **Roboot-like image** | The landing page color-synced image used was made by the developer himself | ![Screenshot](documentation\features\roboimage.png) |
+| **About AI Library** | The 'About AI Library' link opens a modal that gives a little information about the site. | ![screenshot](documentation/features/landingpage1.png) |
+| **Navigation Menu of AI Lib** | The 'About AI Library Nav menu' contains links to the other webpages in the site. | ![screenshot](documentation/features/navmenu.png) ||
+| **Footer** | The footer contains a link to the creators social media links. | ![screenshot](documentation/features/socialsinfooter.png) |
+|**Read Page**| The read page contains the written content about AI - based knowledge including the AI Timeline|![screenshot](documentation/features/readandnav.png)|
+|**AI Timeline in Read Page**|This is the history of AI portrayed as a timeline in a section of the Read page|![screenshot](documentation/features/timelinehover.png)|
+| **Read Content Details & Summary Use** | The read section contained quite the number of details and summary elements to portary information on AI | ![screenshot](documentation/features/readcontent.png) |
+| **Roboot-like image** | The landing page color-synced image used was made by the developer himself | ![Screenshot](documentation/features/roboimage.png) |
 
 
 ### Future Features
@@ -189,10 +189,10 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [Coolors](https://coolors.co) used to check color contrasts and make interactive color pallettes.
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
 Here are screenshots to know how what they(the color-blinded) perceive.
- ![screenshot](documentation\features\cbblueblind.png)
- ![screenshot](documentation\features\cbdeuteranomaly.png)
- ![screenshot](documentation\features\cbmonochromancy.png)
- ![screenshot](documentation\features\cbprotanomalyrw.png)
+ ![screenshot](documentation/features/cbblueblind.png)
+ ![screenshot](documentation/features/cbdeuteranomaly.png)
+ ![screenshot](documentation/features/cbmonochromancy.png)
+ ![screenshot](documentation/features/cbprotanomalyrw.png)
 - [ChatGPT](https://chatgpt.com/) was utilized to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage.
 - [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) was the platform I used to conduct research for my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
 - [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like.
@@ -270,12 +270,12 @@ The following are credits to various people and technologies that have directly 
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-|[Favicon](assets\images\robot.svg)| Favicon| SVG| Personally made SVG Favicon with knowledge on how from W3Schools|
+|[Favicon](assets/images/robot.svg)| Favicon| SVG| Personally made SVG Favicon with knowledge on how from W3Schools|
 |[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Main content image at home page|image| Personally constructed image |
 |[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | Image at AI History section/ timeline section| image | AI Summit 2023 Group of Reps Image|
 |[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at About Page|image|Man Looking at computer|
 |[Toggle Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:web_traffic:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368&icon.query=curs)| Toggle Menu SVG |SVG| Toggle Hamburger Menu SVG from Google Fonts|
-|[Favicon used](assets\images\robot.svg)|Favicon|Favicon|With the knowledge I earned from W3schools I made the given svg file|
+|[Favicon used](assets/images/robot.svg)|Favicon|Favicon|With the knowledge I earned from W3schools I made the given svg file|
 |[Video Used](https://app.synthesia.io/)| Video in the about page | Video |I used synthesia to make a quick video about AI Lib |
 |[Social media Icons Used](https://fontawesome.com/search?o=r&m=free)| Social media icons used in the footer| Icons | I used Font Awesome to obtain the icons used for the footer |
 
