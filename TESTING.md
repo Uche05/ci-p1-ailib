@@ -31,19 +31,13 @@ Return back to the [README.md](README.md) file.
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-| Page | W3C URL | Screenshot | Notes |
-| :---: | :---: | :---: | :---: |
-| Main Page | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fboderg.github.io%2Fyour-weather%2F) | ![screenshot](documentation/validation/nu-html-checker-warnings.png) | Section lacks header h2-h6 warning |
-| Main Page | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fboderg.github.io%2Fyour-weather%2F) | ![screenshot](documentation/validation/nu-html-checker-warnings.png) | Modal not allowed as child of body error |
-| Main Page | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fboderg.github.io%2Fyour-weather%2F) | ![screenshot](documentation/validation/nu-html-checker-no-errors.png) | Fixed by adding an h1 heading and changing modal to div - Pass: No Errors or Warnings |
+|
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-| File | Jigsaw URL | Screenshot | Notes |
-| :---: | :---: | :---: | :---: |
-| style.css | [Jigsaw](https://jigsa w.w3.org/css-validator/validator?uri=https%3A%2F%2Fboderg.github.io%2Fyour-weather%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](https://github.com/Uche05/CI-PROJECTS-KUCJ/blob/main/documentation/testingshots/csscheck.png) | Pass: No Errors |
+
 
 ## Browser Compatibility
 

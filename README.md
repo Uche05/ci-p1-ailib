@@ -90,7 +90,7 @@ Below are two mock-up images of the AI Library website created using the  <a hre
 - I felt that this font had a cool style that is easy to read and that it fitted well with the AI Library site.
 - Montserrat was specifically used for the main content text. 
 
-##
+## Icons
 - [Font Awesome](https://fontawesome.com) icons were used in the AI Library site, for GitHub links in the footer and modal and for the search icon in the main weather card.
 
 ## User Stories
@@ -104,13 +104,19 @@ Below are two mock-up images of the AI Library website created using the  <a hre
 - As a new user (mobile reader), I want to browse through a timeline of articles or events,
 so that I can easily navigate to content based on the date or relevance.
 ![Screenshot](documentation/features/readandnav.png)
-- As a new mobile user, I want to have a vertically scrollable timeline that adjusts to my screen size, so that I can easily read and interact with content on my device.
+- As a new mobile user, I want to have a vertically scrollable home page that adjusts to my screen size, so that I can easily read and interact with content on my device.
 ![Screenshot](documentation/features/mobilewebview.png)
 - As a new user, I want to be able to give my contact information to the site for the sake of being contacted.
-![Screenshot]()
+![Screenshot](documentation\features\contactformview.png)
 - As a new user, I would want to identify the brand on social media such as Facebook or Instagram.
-![Screenshot]()
-- As a new user, I want to see a brief video on what AI Lib is about
+![Screenshot](documentation\features\socialsinfooter.png)
+- As a new user, I want to see a brief video on what AI Lib is about.
+![Screenshot](documentation\features\aboutvideo.png)
+- As a new mobile user, I want to have a vertically scrollable contact form.
+![Screenshot](documentation\features\verticalcontactform.png)
+- As a new mobile user, I want to have a vertically scrollable timeline as it fits my screen size.
+![Screenshot](documentation\features\verticaltimelinehover.png)
+
 
 ### Returning Site Users
 
@@ -120,6 +126,8 @@ so that I can easily navigate to content based on the date or relevance.
 ### Future Site Users
 
 - As a future site user, I would like to explore a timeline of feature releases, so that I can see how the site has evolved over time.
+- AS a future site user, I want to click on a timeline event to be taken to a detailed page about that update or feature,
+so that I can learn more about the specific changes or improvements.
 
 ## Wireframes
 
@@ -128,21 +136,21 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 
 ### Mobile Wireframes
 
-| Main page | About modal | Displayed weather |
-| :---: | :---: | :---: |
-| ![screenshot](-) | ![screenshot](-) | ![screenshot](-) |
+| Main page |
+| :---: |
+| ![screenshot](documentation\features\mobilewireframe1.png) |
 
 ### Tablet Wireframes
 
-| Main page | About modal | Displayed weather |
-| :---: | :---: | :---: |
-| ![screenshot](-) | ![screenshot](-) | ![screenshot](-) |
+| Main page |
+| :---: |
+| ![screenshot](documentation\features\tabletwireframe.png) |
 
 ### Desktop Wireframes
 
-| Main page | About modal | Displayed weather |
-| :---: | :---: | :---: |
-| ![screenshot](-) | ![screenshot](-) | ![screenshot](-) |
+| Main page |
+| :---: |
+| ![screenshot](documentation\features\desktopwireframe.png) |
 
 ## Features
 
@@ -150,9 +158,9 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **About AI Library** | The 'About AI Library' button opens a modal that gives a little information about the site and it's creator. | ![screenshot](-) |
-| **About AI Library Modal** | The 'About AI Library Modal' displays what the site is about, what you can do on the site and why the site was created. It also contains links to the repository and where it is hosted. | ![screenshot](-) ||
-| **Footer** | The footer contains a link to the creators GitHub along with the project details. | ![screenshot](-) |
+| **About AI Library** | The 'About AI Library' link opens a modal that gives a little information about the site. | ![screenshot]() |
+| **About AI Library Modal** | The 'About AI Library Modal' displays what the site is about, what you can do on the site and why the site was created. It also contains links to the repository and where it is hosted. | ![screenshot]() ||
+| **Footer** | The footer contains a link to the creators social media links. | ![screenshot](-) |
 |-|-|-|
 |-|-|-|
 
@@ -178,18 +186,21 @@ I made use of pen and paper as well as Google Slides to make the wireframes of m
 - [Coolors](https://coolors.co) used to check color contrasts and make interactive color pallettes.
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
 Here are screenshots to know how what they(the color-blinded) perceive.
-| ![screenshot](-) | ![screenshot](-) | ![screenshot](-) |
-- [ChatGPT](https://chatgpt.com/) used to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage.
-- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) used as basis to conduct my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
+ ![screenshot](documentation\features\cbblueblind.png)
+ ![screenshot](documentation\features\cbdeuteranomaly.png)
+ ![screenshot](documentation\features\cbmonochromancy.png)
+ ![screenshot](documentation\features\cbprotanomalyrw.png)
+- [ChatGPT](https://chatgpt.com/) was utilized to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage.
+- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) was the platform I used to conduct research for my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
 - [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like.
 - [Microsoft OneNote](https://onedrive.live.com/) used as my word processor for the written content of the site.
 - [Am I Responsive](https://ui.dev/amiresponsive) used to make the markup screenshots to showcase in the readme file.
 - [Emojiterra](https://emojiterra.com/) used to check for emoji HTML dec values to add into my website. PS It contains different info about emojis.
-- [W3C HTML Validator]() used to do checks for errors on HTML elements.
-- [Jigsaw CSS Validator]() used to do checks for errors on CSS elements.
-- [Wave]() used to check accessibility status of website.
-- DevTools(in web browsers) used to check regular responsivity, accessibility and overall decent previews of website before and after deployment.
-- [Synthesia]() used to make ai lib intro video.
+- [W3C HTML Validator](https://validator.w3.org/) used to do checks for errors on HTML elements.
+- [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) used to do checks for errors on CSS elements.
+- [Wave](https://wave.webaim.org/report#/https://uche05.github.io/CI-PROJECTS-KUCJ/) used to check accessibility status of website.
+- [DevTools](https://google.co.uk/chrome/) used to check regular responsivity, accessibility and overall decent previews of website before and after deployment.
+- [Synthesia](https://synthesia.io) used to make ai lib intro video.
 
 ## [Testing](TESTING.md)
 
