@@ -263,7 +263,7 @@ The following are credits to various people and technologies that have directly 
 |[Toogle Menu](https://uche05.github.io/CIstuff/)|Main Page- Mobile Devices|Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute|
 | [Timeline Section](https://chatgpt.com/) | Timeline section on the read page | With the help of ChatGPT I was able to make a timeline section to illustrate the history of AI in due time and in my visual idea|
 |[Written content aid](https://chatgpt.com/)| Written Content Aid | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
-|[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given github repo for the both "README" and "TESTING"|
+|[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given [github repo](https://github.com/boderg/your-weather) for the both "README" and "TESTING"|
 |[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
 
 ### Media
