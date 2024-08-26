@@ -204,6 +204,7 @@ Here are screenshots to know how what they(the color-blinded) perceive.
 - [Wave](https://wave.webaim.org/report#/https://uche05.github.io/CI-PROJECTS-KUCJ/) used to check accessibility status of website.
 - [DevTools](https://google.co.uk/chrome/) used to check regular responsivity, accessibility and overall decent previews of website before and after deployment.
 - [Synthesia](https://synthesia.io) used to make ai lib intro video.
+- [CSS Diner](https://flukeout.github.io/) used to learn many CSS selector and rule set tricks and knowledge.
 
 ## [Testing](TESTING.md)
 

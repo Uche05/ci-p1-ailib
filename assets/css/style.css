@@ -90,7 +90,9 @@ nav {
 
 /*Main content selectors' styles*/
 #robo-div,
-#toc-for-read {
+#toc-for-read,
+#con,
+#about {/*main ceontent styles for the index, read, contact and about pages respectively in the selectors used*/
     display: block;
     margin: 5px auto;
     width: fit-content;
@@ -119,7 +121,8 @@ nav {
     font-weight: bolder;
 }
 
-#whyus {
+#whyus,
+#whyus-about {
     text-align: center;
     line-height: 1.4;
     font-size: 140%;
@@ -131,7 +134,8 @@ hr {
     border: 1px solid #03045e;
 }
 
-#whyus>aside {
+#whyus>aside,
+#whyus-about>aside {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -141,24 +145,12 @@ hr {
     margin: 3.5%;
 }
 
-/*Main styling for the about page*/
-#about {
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-/*Styling so that all links are not underlined and style to match text*/
-a {
-    text-decoration: none;
-    color: inherit;
-}
+#whyus
 
 /*Styling for the form and its elements*/
 form{
     display: block;
-    position: relative; /* or absolute, depending on the need */
+    position: relative;
 }
 
 .fieldset-form {
@@ -199,15 +191,6 @@ form{
     justify-content: center;
 }
 
-/*Styling the about page*/
-#about h2{
-    text-align: center;
-    font-size: 110%;
-}
-
-video{
- margin: 1px auto;
-}
 
 /*Styling main content for the read page*/
 #toc {
@@ -262,7 +245,7 @@ summary {
     list-style: none;
 }
 
-.article-read details summary {
+.article-read details summary { /*Learnt from CSS Diners*/
     margin: 1%;
     font-size: 1.2em;
     cursor: pointer;
@@ -272,7 +255,7 @@ summary {
     color: #ffffff;
 }
 
-.article-read details p {
+.article-read details #det-about p { /*Learnt from CSS Diners*/
     margin: 10px 0;
     color: inherit;
 }
@@ -393,6 +376,35 @@ summary {
     background-color: #03045e;
 }
 
+/*Style for the about page main content*/
+#man{
+    width: 15%;
+    max-height: fit-content;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 140%;
+}
+
+video{
+    margin: 1px auto;
+}
+
+#det-about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #03045e;
+    color: #ffffff;
+    padding: 2%;
+    margin: 3%;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 110%;
+}
 
 /* Footer stays at the bottom */
 footer {
