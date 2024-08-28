@@ -22,4 +22,5 @@
       "latex",
       "plaintext"
    ],
+   "livePreview.defaultPreviewPath": "/index.html",
 }
