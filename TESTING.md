@@ -31,13 +31,16 @@ Return back to the [README.md](README.md) file.
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-![]()
+
+| Landing Page | About Page | Read Page | Contact Page |
+| :---: | :---: | :---: | :---: |
+|![Screenshot](documentation/features/htmlcheckindex.png)|![Screenshot](documentation/features/htmlcheckabout.png)|![Screenshot](documentation/features/htmlcheckread.png)|![Screenshot](documentation/features/htmlcheckcontact.png)|
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-![]()
+![Screeenshot](documentation/features/csscheck.png)
 
 ## Browser Compatibility
 
@@ -45,6 +48,11 @@ I have tested AI Library on the following browsers to check for compatibility is
 
 | Browser | Main | About | Notes |
 | :---: | :---: | :---: | :---: |
+|Google Chrome|---|---|---|
+|Microsoft Edge|---|---|---|
+|Mozilla Firefox|---|---|---|
+|Google Chrome (Andriod)|---|---|---|
+|Samsung Internet Browser(Andriod)|---|---|---|
 
 
 ## Responsiveness
@@ -55,7 +63,14 @@ I have tested my deployed project on multiple devices to check for responsivenes
 <summary>Click for report</summary>
 
 | Device | Main | About | Notes |
-|---|---|---|---|
+| :---: | :---: | :---: | :---: |
+|Google Pixel 4 (x2)|---|---|---|
+|Xiaomi Redmi 13C |---|---|---|
+|Samsung A25|---|---|---|
+|Samsung Galaxy J7 Prime|---|---|---|
+|Ipad Air(DevTools of Ms Edge, Mozilla Firefox and Google Chrome)|---|---|---|
+|Iphone 14 Pro Max (Dev Tools of Ms Edge)| | :---: | :---: |
+| Google Pixel 7 | :---: | :---: | :---: |
 
 </details>
 
@@ -79,21 +94,21 @@ so that I can easily navigate to content based on the date or relevance.
 - As a new mobile user, I want to have a vertically scrollable home page that adjusts to my screen size, so that I can easily read and interact with content on my device.
 ![Screenshot](documentation/features/mobilewebview.png)
 - As a new user, I want to be able to give my contact information to the site for the sake of being contacted.
-![Screenshot](documentation\features\contactformview.png)
+![Screenshot](documentation/features/contactformview.png)
 - As a new user, I would want to identify the brand on social media such as Facebook or Instagram.
-![Screenshot](documentation\features\socialsinfooter.png)
+![Screenshot](documentation/features/socialsinfooter.png)
 - As a new user, I want to see a brief video on what AI Lib is about.
-![Screenshot](documentation\features\aboutvideo.png)
+![Screenshot](documentation/features/aboutvideo.png)
 - As a new mobile user, I want to have a vertically scrollable contact form.
-![Screenshot](documentation\features\verticalcontactform.png)
+![Screenshot](documentation/features/verticalcontactform.png)
 - As a new mobile user, I want to have a vertically scrollable timeline as it fits my screen size.
-![Screenshot](documentation\features\verticaltimelinehover.png)
+![Screenshot](documentation/features/verticaltimelinehover.png)
 
 
 ### Returning Site Users
 
 - As a returning site user, I would like to be able to access the articles easily.
-![screenshot](documentation\features\navmenu.png)
+![screenshot](documentation/features/navmenu.png)
 
 ## Bugs
 
@@ -138,7 +153,7 @@ I ended up using the "em" element but replaced it with the "span" element as the
 - To fix this error I placed the summary element before the text rather than after.
 <hr>
 
-- Used \ instead of / in creating paths for file documents.
+- Used / instead of / in creating paths for file documents.
 - Simply used the forward slash characher(/) to put relative file paths.
 <hr>
 
