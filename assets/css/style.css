@@ -89,26 +89,15 @@ nav {
 }
 
 /*Main content selectors' styles*/
-#robo-div,
-#toc-for-read,
-#con,
-#about {/*main ceontent styles for the index, read, contact and about pages respectively in the selectors used*/
-    display: block;
+
+#robo-div/* top section content in the main content of about page*/,
+#con/*main content of contact page*/,
+#about/*main content of about page*/ {
     margin: 5px auto;
     width: fit-content;
     font-size: 1.5rem;
     background-color: white;
-    padding-top: 20%;
-    text-align: center;
-}
-
-#con-div{
-    display: block;
-    margin: 10% auto;
-    width: fit-content;
-    font-size: 1.5rem;
-    background-color: white;
-    padding-top: 20%;
+    padding-top: 7%;
     text-align: center;
 }
 
@@ -217,26 +206,22 @@ form{
     text-decoration: underline;
 }
 
-/*style ol elements to not have any list-style*/
 summary~ol {
     list-style-type: none;
 }
 
-/*Style dt elements to be bold*/
 dt {
     font-weight: bolder;
 }
 
-/*Style pre elements to inherit fonts from parent*/
 pre {
     font-family: inherit;
 }
 
-/*Style to make the articles collapsible and style its elements*/
 .article-read {
     margin-bottom: 20px;
     border: 1px solid #03045e;
-    padding: 10px;
+    padding: 16px;
     border-radius: 5px;
     background-color: #ffffff;
 }
@@ -378,13 +363,14 @@ summary {
 
 /*Style for the about page main content*/
 #man{
-    width: 15%;
+    width: 320px;
     max-height: fit-content;
 }
 
 #about h2{
     text-align: center;
     font-size: 140%;
+    padding-top: 2%;
 }
 
 video{
@@ -442,6 +428,8 @@ footer {
     margin-top: 10px;
 }
 
+
+/*Media Queries*/
 /*media query for screens of tablets and larger */
 @media screen and (min-width:768px) {
 
@@ -511,21 +499,17 @@ footer {
 
 /*Media query for laptops or larger for contact form*/
 @media screen and (min-width: 1024px) {
-    #contact {
-        display: block;
-        width: 80%; /* Adjust width according to screen size */
-        margin: 0 auto;
-    }
-
+    /*Main content- Contact Form*/
     .fieldset-form{
         display: block;
     }
 }
 
-
 /*Timeline media queries with aid from ChatGPT*/
-/* Responsive styling for tablets and below (vertical layout) */
+
+/* Responsive styling for tablets and below  */
 @media (max-width: 1024px) {
+    /*Read Page Timeline- vertical layout*/
     .timeline-container {
         overflow-y: auto;
         /* Enable vertical scrolling for smaller screens */
@@ -572,10 +556,10 @@ footer {
     }
 }
 
-/* Extra small screens (phones) */
+/* Timeline styling for devices of small screens (phones) */
 @media (max-width: 480px) {
     .timeline {
-        height: 400px;
+        height: 4500px;
         /* Set a smaller height for scrolling */
     }
 
