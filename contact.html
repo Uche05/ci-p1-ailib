@@ -24,7 +24,7 @@
         <!--Checkbox Toggle Menu-->
         <input type="checkbox" name="nav-tog" id="nav-tog">
         <label for="nav-tog" class="nav-tog-label">
-            <i id="nav-tog" class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars"></i>
         </label>
         <!--Nav Bar-->
         <nav id="navbar">
@@ -41,24 +41,26 @@
     <main id="con">
 
         <form action="thankyou.html">
-            <div id="con-div">
+            <div>
                 <fieldset class="fieldset-form">
-                    <legend> Personal Details</legend>
-
+                    <legend> You </legend>
                     <label for="name">Name</label>
-                    <input type="text" name="Name" id="name" required>
+                    <input type="text" name="Name" id="name" placeholder="Enter your name" required>
+                </fieldset>
 
+                <fieldset class="fieldset-form">
+                    <legend>Your Email</legend>
                     <label for="email">Email-address</label>
-                    <input type="email" name="Email" id="email" required>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
                 </fieldset>
 
                 <fieldset class="fieldset-form">
                     <legend>Social Handles</legend>
                     <label for="fbig">What's your Facebook or Instagram Handle?</label>
-                    <input type="url" name="Handle" id="fbig">
-
+                    <input type="url" name="Handle" id="fbig" placeholder="https://www.instagram_or_facebook.com/yourusername">
+                    <br>
                     <label for="In">What's your LinkedIn Handle?</label>
-                    <input type="url" name="LinkedIn Handle" id="In" required>
+                    <input type="url" name="LinkedIn Handle" id="In" required placeholder="https://www.linkedin.com/in/yourusername">
                 </fieldset>
 
                 <fieldset class="fieldset-form">
