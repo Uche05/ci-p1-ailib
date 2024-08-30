@@ -45,13 +45,14 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 ## Browser Compatibility
 
 I have tested AI Library on the following browsers to check for compatibility issues.
+Once the finally testing was complete no compatibility issues where found.
 
-| Browser | Main | About | Notes |
-| :---: | :---: | :---: | :---: |
-|Google Chrome|---|---|---|
-|Microsoft Edge|---|---|---|
-|Mozilla Firefox|---|---|---|
-|Samsung Internet Browser(Andriod)|---|---|---|
+| Browser |
+| :---: |
+|Google Chrome|
+|Microsoft Edge|
+|Mozilla Firefox|
+|Samsung Internet Browser(Andriod)|
 
 
 ## Responsiveness
@@ -61,12 +62,12 @@ I have tested my deployed project on multiple devices and using the developer to
 <details>
 <summary>Click for report</summary>
 
-| Device | Main | About | Notes |
-| :---: | :---: | :---: | :---: |
-|Google Pixel 4 (x2)|---|---|---|
-|Samsung A25|---|---|---|
-|Ipad Air(DevTools of Ms Edge, Mozilla Firefox and Google Chrome)|---|---|---|
-|Iphone 14 Pro Max (Dev Tools of Ms Edge)| | :---: | :---: |
+| Device |
+| :---: |
+|Google Pixel 4 (x2)|
+|Samsung A25|
+|Ipad Air(DevTools of Ms Edge, Mozilla Firefox and Google Chrome)|
+|Iphone 14 Pro Max (Dev Tools of Ms Edge)|
 
 </details>
 
@@ -76,7 +77,8 @@ I have tested my deployed project using the [WAVE](https://wave.webaim.org/) web
 
 | Page | Summary | Details | Contrast | Notes |
 | :---: | :---: | :---: | :---: | :---: |
-| Main | ![screenshot](documentation/features/wave1.png) | 1 Error: Empty Form Label | The label used for the nav bar was considered an error but was meant to be used as nav bar for different  | An empty form label was considered an error but was necessary for the nav bar for smaller devices. |
+| All Pages | ![screenshot](documentation/features/wave1.png) | 1 Error: Empty Form Label | The label used for the nav bar was considered an error but was meant to be used as nav bar for different  | An empty form label was considered an error but was necessary for the nav bar for smaller devices. |
+| Contact Page | ![screenshot](documentation/features/wave2.png) | 4 Contrast errors | The emojis used did not have a good contrast to background | I did not change anything about it as I needed those emojis. So I added styling to the input elements to make it stand out more.|
 
 ## User Story Testing
 
