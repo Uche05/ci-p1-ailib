@@ -102,7 +102,7 @@ nav {
 }
 
 #th{
-    margin: 8px 2px;
+    margin: 8px 0px;
     width: 100%;
     font-size: 2rem;
     background-color: white;
@@ -407,7 +407,7 @@ video{
 
 /*Thank you page header style*/
 #thanks{
-    margin: 25% auto;
+    margin: 5% auto 20%;
 }
 
 /* Footer stays at the bottom */
