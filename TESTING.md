@@ -51,13 +51,12 @@ I have tested AI Library on the following browsers to check for compatibility is
 |Google Chrome|---|---|---|
 |Microsoft Edge|---|---|---|
 |Mozilla Firefox|---|---|---|
-|Google Chrome (Andriod)|---|---|---|
 |Samsung Internet Browser(Andriod)|---|---|---|
 
 
 ## Responsiveness
 
-I have tested my deployed project on multiple devices to check for responsiveness issues.
+I have tested my deployed project on multiple devices and using the developer tools to check for responsiveness issues.
 
 <details>
 <summary>Click for report</summary>
@@ -65,12 +64,9 @@ I have tested my deployed project on multiple devices to check for responsivenes
 | Device | Main | About | Notes |
 | :---: | :---: | :---: | :---: |
 |Google Pixel 4 (x2)|---|---|---|
-|Xiaomi Redmi 13C |---|---|---|
 |Samsung A25|---|---|---|
-|Samsung Galaxy J7 Prime|---|---|---|
 |Ipad Air(DevTools of Ms Edge, Mozilla Firefox and Google Chrome)|---|---|---|
 |Iphone 14 Pro Max (Dev Tools of Ms Edge)| | :---: | :---: |
-| Google Pixel 7 | :---: | :---: | :---: |
 
 </details>
 
@@ -80,7 +76,7 @@ I have tested my deployed project using the [WAVE](https://wave.webaim.org/) web
 
 | Page | Summary | Details | Contrast | Notes |
 | :---: | :---: | :---: | :---: | :---: |
-| Main | ![screenshot](documentation/wave/wave-summary.png) | ![screenshot](documentation/wave/wave-details.png) | ![screenshot](documentation/wave/wave-contrast.png) | Write on your problem faced from WAVE tool. |
+| Main | ![screenshot](documentation/features/wave1.png) | 1 Error: Empty Form Label | The label used for the nav bar was considered an error but was meant to be used as nav bar for different  | An empty form label was considered an error but was necessary for the nav bar for smaller devices. |
 
 ## User Story Testing
 
@@ -103,7 +99,6 @@ so that I can easily navigate to content based on the date or relevance.
 ![Screenshot](documentation/features/verticalcontactform.png)
 - As a new mobile user, I want to have a vertically scrollable timeline as it fits my screen size.
 ![Screenshot](documentation/features/verticaltimelinehover.png)
-
 
 ### Returning Site Users
 
@@ -161,7 +156,7 @@ I ended up using the "em" element but replaced it with the "span" element as the
 - I simply removed the button element and styled the "a" element to look like a button instead.
 <hr>
 
-- <b>NOTE</b>: I made use of a W3C Validator Extension to make the testing process smoothier and faster. I still used the validation website afterwards!
+- <strong>NOTE</strong>: I made use of a W3C Validator Extension to make the testing process smoothier and faster. I still used the validation website afterwards!
 
 ### CSS
 

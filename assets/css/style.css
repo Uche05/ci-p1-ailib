@@ -84,7 +84,7 @@ nav {
 }
 
 .nav-tog-label {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
     color: #03045e;
 }
 
@@ -99,6 +99,20 @@ nav {
     background-color: white;
     padding-top: 7%;
     text-align: center;
+}
+
+#th{
+    margin: 8px 2px;
+    width: 100%;
+    font-size: 2rem;
+    background-color: white;
+    padding-top: 7%;
+    text-align: center;
+}
+
+#read{
+    margin: 0;
+    width: 100%;
 }
 
 .special-text {
@@ -134,12 +148,11 @@ hr {
     margin: 3.5%;
 }
 
-#whyus
-
 /*Styling for the form and its elements*/
 form{
     display: block;
     position: relative;
+    margin-top: 20px;
 }
 
 .fieldset-form {
@@ -169,17 +182,16 @@ form{
     text-decoration: none;
 }
 
-#contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5%;
-    margin-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* General styling for all input elements */
+input, textarea {
+    border: 2px solid #03045e;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 300px;
+    margin: 0px auto;
 }
-
 
 /*Styling main content for the read page*/
 #toc {
@@ -224,6 +236,13 @@ pre {
     padding: 16px;
     border-radius: 5px;
     background-color: #ffffff;
+}
+
+.article-read img{
+    display: block;
+    margin: 1px auto;
+    width: 320px;
+    height: 240px;
 }
 
 summary {
@@ -316,7 +335,6 @@ summary {
     display: none;
     position: absolute;
     top: -10px;
-    /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     background-color: #03045e;
@@ -324,19 +342,12 @@ summary {
     padding: 5px 10px;
     border-radius: 4px;
     white-space: normal;
-    /* Allow text to wrap */
     z-index: 1000;
-    /* Ensure tooltip is always on top */
     max-width: 80vw;
-    /* Prevent the tooltip from exceeding the viewport width */
     word-wrap: break-word;
-    /* Break long words if necessary */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Add shadow for better visibility */
     text-align: center;
-    /* Center text inside the tooltip */
     pointer-events: none;
-    /* Prevent tooltips from blocking other interactions */
 }
 
 /* Display tooltip on hover */
@@ -362,9 +373,11 @@ summary {
 }
 
 /*Style for the about page main content*/
-#man{
+#man,
+#a-robot{
     width: 320px;
-    max-height: fit-content;
+    height: fit-content;
+    margin: 0px auto;
 }
 
 #about h2{
@@ -390,6 +403,11 @@ video{
     padding: 10px;
     border-radius: 5px;
     font-size: 110%;
+}
+
+/*Thank you page header style*/
+#thanks{
+    margin: 25% auto;
 }
 
 /* Footer stays at the bottom */
@@ -530,7 +548,7 @@ footer {
         top: 0;
         left: 50%;
         width: 4px;
-        height: 100%;
+        height: 1500px;
         transform: translateX(-50%);
     }
 
@@ -559,7 +577,7 @@ footer {
 /* Timeline styling for devices of small screens (phones) */
 @media (max-width: 480px) {
     .timeline {
-        height: 4500px;
+        height: 1500px;
         /* Set a smaller height for scrolling */
     }
 

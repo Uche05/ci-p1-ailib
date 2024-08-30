@@ -275,10 +275,11 @@ The following are credits to various people and technologies that have directly 
 |[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Main content image at home page|image| Personally constructed image |
 |[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | Image at AI History section/ timeline section| image | AI Summit 2023 Group of Reps Image|
 |[BingSearch@metrocontinuingeduucation](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)|Image at About Page|image|Man Looking at computer|
-|[Toggle Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:web_traffic:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368&icon.query=curs)| Toggle Menu SVG |SVG| Toggle Hamburger Menu SVG from Google Fonts|
+|[Toggle Menu](https://fontawesome.com/search?o=r&m=free)| Toggle Menu icon |Icon| Toggle Hamburger Menu SVG from Font Awesome|
 |[Favicon used](assets/images/robot.svg)|Favicon|Favicon|With the knowledge I earned from W3schools I made the given svg file|
 |[Video Used](https://app.synthesia.io/)| Video in the about page | Video |I used synthesia to make a quick video about AI Lib |
 |[Social media Icons Used](https://fontawesome.com/search?o=r&m=free)| Social media icons used in the footer| Icons | I used Font Awesome to obtain the icons used for the footer |
+|[Pexels Images](https://www.pexels.com/search)| Pictures used in the read page | Images | Most images used in the read page are from pexels.com  |
 
 ### Acknowledgements
 
